@@ -22,24 +22,24 @@ Traditional security systems often rely on static rules that fail against "zero-
 
 We have successfully built a complete end-to-end security lifecycle:
 
-    100% Recall Performance: The system successfully identified all malicious attacks within a test set of 10,217 records.
+100% Recall Performance: The system successfully identified all malicious attacks within a test set of 10,217 records.
 
-    Hybrid Detection Engine: Integrated both signature-based rules and an anomaly detector trained on a behavioral baseline of normal_traffic.csv.
+Hybrid Detection Engine: Integrated both signature-based rules and an anomaly detector trained on a behavioral baseline of normal_traffic.csv.
 
-    Persistent IP Reputation: Built an IncidentMemory layer that tracks IP history, calculating dynamic Reputation Scores to intelligently identify repeat offenders.
+Persistent IP Reputation: Built an IncidentMemory layer that tracks IP history, calculating dynamic Reputation Scores to intelligently identify repeat offenders.
 
-    Autonomous Policy Enforcement: Implemented a policy engine that protects critical internal ranges (e.g., 192.168.1.x) by defaulting to monitor actions for protected IPs.
+Autonomous Policy Enforcement: Implemented a policy engine that protects critical internal ranges (e.g., 192.168.1.x) by defaulting to monitor actions for protected IPs.
 
 🧠 Reasoning & Architecture
 Why Multi-Agent?
 
 Security is a multi-step reasoning process. By using specialized agents, we isolate concerns:
 
-    Detection Agent: Focuses on statistical anomalies.
+Detection Agent: Focuses on statistical anomalies.
 
-    Triage Agent: Contextualizes the threat by checking historical database records for repeat behavior.
+Triage Agent: Contextualizes the threat by checking historical database records for repeat behavior.
 
-    Response Agent: Executes actions (block, rate_limit, alert) based on a predefined policy.json.
+Response Agent: Executes actions (block, rate_limit, alert) based on a predefined policy.json.
 
 Why Isolation Forest?
 
@@ -48,20 +48,20 @@ We used a contamination=0.1 setting to proactively flag the top 10% of unusual t
 
 Based on our dataset_visualization.png:
 
-    Protocol Distribution: 87% TCP traffic.
+Protocol Distribution: 87% TCP traffic.
 
-    Traffic Profile: Malicious connections are high-frequency but low-byte, characteristic of scanning and brute-force attempts.
+Traffic Profile: Malicious connections are high-frequency but low-byte, characteristic of scanning and brute-force attempts.
 
 🔮 Future Roadmap
 
-    Precision Tuning: Refine the anomaly threshold to reduce the current False Positive Rate.
+Precision Tuning: Refine the anomaly threshold to reduce the current False Positive Rate.
 
-    Ablation Study: Quantify the improvement of agentic AI over traditional rule-only systems.
+Ablation Study: Quantify the improvement of agentic AI over traditional rule-only systems.
 
-    Real-time Dashboard: Integrate a Streamlit interface to visualize incidents.db in real-time.
+Real-time Dashboard: Integrate a Streamlit interface to visualize incidents.db in real-time.
 
 👨‍💻 Author
 
 Hiren Manani
 
-    MS in Computer Science, Syracuse University (Expected May 2026)
+MS in Computer Science, Syracuse University (Expected May 2026)
