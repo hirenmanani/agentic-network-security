@@ -1,67 +1,76 @@
-Agentic Network Security Monitor
+🛡️ Agentic Network Security Monitor
 
-An autonomous, multi-agent security orchestration system that leverages Machine Learning and persistent memory to detect, triage, and respond to network threats in real-time.
-🎯 Project Vision
+Autonomous Threat Orchestration with ML-Driven Anomaly Detection
+---
+📖 Overview
 
-Traditional security systems often rely on static rules that fail against "zero-day" anomalies. This project implements a LangGraph-inspired multi-agent architecture that combines the precision of rule-based detection with the adaptability of an Isolation Forest ML model.
-🛠️ The Tech Stack
+Developed as part of the Applied Agentic-AI Systems (CIS 600) curriculum at Syracuse University, this project implements a state-of-the-art multi-agent framework for real-time network security. Unlike traditional SIEMs that rely on static signatures, this monitor utilizes an Isolation Forest model to detect zero-day anomalies and a Stateful Agentic Pipeline to execute autonomous responses.
 
-    Language: Python 3.13
+--- 
 
-    Machine Learning: Scikit-learn (IsolationForest)
+🏗️ Architecture & Engineering Reasoning
+1. Multi-Agent Orchestration (The "Reasoning" Layer)
 
-    Orchestration: Multi-agent pipeline (Monitoring, Detection, Triage, Response)
+We utilize a decentralized agent architecture to decompose the security lifecycle. This allows for modular scaling and independent logic updates:
 
-    Data Processing: Pandas, NumPy
+Monitoring Agent: Handles high-throughput log ingestion and triggers the pipeline.
 
-    Memory/Persistence: SQLite3
+Detection Agent: A hybrid engine combining rule-based heuristics with an Isolation Forest ML model (set at contamination=0.1) to identify behavioral outliers.
 
-    Visualization: Matplotlib, Seaborn
+Triage Agent: Contextualizes threats by querying a persistent SQLite memory layer to differentiate between first-time anomalies and repeat offenders.
 
-🚀 Milestones Achieved
+Response Agent: An autonomous decision-maker that enforces a policy.json framework, applying actions like rate_limit, block, or monitor based on risk and IP reputation.
 
-We have successfully built a complete end-to-end security lifecycle:
+2. Stateful Memory & Reputation Scoring
 
-100% Recall Performance: The system successfully identified all malicious attacks within a test set of 10,217 records.
+A critical component for any Lead Data Engineer is data persistence. We implemented a SQLite-backed memory manager that:
 
-Hybrid Detection Engine: Integrated both signature-based rules and an anomaly detector trained on a behavioral baseline of normal_traffic.csv.
+Maintains a historical record of all incidents.
 
-Persistent IP Reputation: Built an IncidentMemory layer that tracks IP history, calculating dynamic Reputation Scores to intelligently identify repeat offenders.
+Calculates a dynamic Reputation Score (0−100) for every IP based on frequency and confidence of detected threats.
 
-Autonomous Policy Enforcement: Implemented a policy engine that protects critical internal ranges (e.g., 192.168.1.x) by defaulting to monitor actions for protected IPs.
+Ensures transactional integrity using a shared-connection pattern to prevent database locking during high-volume bursts.
 
-🧠 Reasoning & Architecture
-Why Multi-Agent?
+--- 
 
-Security is a multi-step reasoning process. By using specialized agents, we isolate concerns:
+📊 Performance & Data Insights
 
-Detection Agent: Focuses on statistical anomalies.
+The system was validated against a labeled test set of 10,217 records, achieving a 1.0 Recall (100% Detection Rate) for all malicious payloads.
 
-Triage Agent: Contextualizes the threat by checking historical database records for repeat behavior.
+Key Findings from dataset_visualization.jpg:
 
-Response Agent: Executes actions (block, rate_limit, alert) based on a predefined policy.json.
+Feature Variance: Malicious traffic in our simulation consistently exhibits lower byte counts (mean ≈2,000) compared to benign traffic (mean ≈25,000), identifying the "low-and-slow" probing characteristics of the simulated attacks.
 
-Why Isolation Forest?
+Temporal Spikes: The agents successfully handled a massive traffic surge on Feb 17 at 03:00, triaging over 1,200 incidents without system degradation.
 
-We used a contamination=0.1 setting to proactively flag the top 10% of unusual traffic. Our analysis shows that malicious traffic in this simulation typically has a lower byte count (probing) compared to the larger payloads of benign traffic.
-📈 Data Insights
+---
 
-Based on our dataset_visualization.png:
+🛠️ Technical Stack
 
-Protocol Distribution: 87% TCP traffic.
+ML Core: Scikit-learn (Isolation Forest).
 
-Traffic Profile: Malicious connections are high-frequency but low-byte, characteristic of scanning and brute-force attempts.
+Data Engineering: Pandas, NumPy, JSON-based Policy Engines.
 
-🔮 Future Roadmap
+Persistence: SQLite3 with custom row factory for efficient querying.
 
-Precision Tuning: Refine the anomaly threshold to reduce the current False Positive Rate.
+Visualization: Matplotlib, Seaborn.
 
-Ablation Study: Quantify the improvement of agentic AI over traditional rule-only systems.
+---
 
-Real-time Dashboard: Integrate a Streamlit interface to visualize incidents.db in real-time.
+🔮 Roadmap
 
-👨‍💻 Author
+Precision Tuning: Iterating on the contamination hyperparameter to reduce false-positive rates below 20%.
+
+Streamlit Dashboard: Building a real-time UI to visualize the incidents.db and agent reasoning chains.
+
+Ablation Study: Quantifying the delta between "Agent-Lead" vs. "Heuristic-Only" detection performance.
+
+---
+
+🎓 Academic Context
 
 Hiren Manani
 
-MS in Computer Science, Syracuse University (Expected May 2026)
+Master of Science in Computer Science, Syracuse University (Expected May 2026)
+
+Focus: Data Engineering, Software Development, and Applied AI
