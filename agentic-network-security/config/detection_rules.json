@@ -1,0 +1,26 @@
+{
+  "port_scan": {
+    "enabled": true,
+    "threshold": 20,
+    "time_window": 60,
+    "description": "Multiple unique ports accessed from single IP"
+  },
+  "brute_force": {
+    "enabled": true,
+    "threshold": 5,
+    "time_window": 300,
+    "description": "Multiple failed authentication attempts"
+  },
+  "ddos": {
+    "enabled": true,
+    "connection_threshold": 100,
+    "bytes_threshold": 10000000,
+    "time_window": 60,
+    "description": "High connection or traffic rate"
+  },
+  "suspicious_port": {
+    "enabled": true,
+    "ports": [22, 23, 3389, 445, 139],
+    "description": "Access to commonly exploited ports"
+  }
+}

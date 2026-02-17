@@ -1,0 +1,27 @@
+{
+  "severity_thresholds": {
+    "critical": {
+      "min_confidence": 0.9,
+      "allowed_actions": ["block", "alert", "rate_limit"]
+    },
+    "high": {
+      "min_confidence": 0.75,
+      "allowed_actions": ["rate_limit", "alert"]
+    },
+    "medium": {
+      "min_confidence": 0.6,
+      "allowed_actions": ["alert", "monitor"]
+    },
+    "low": {
+      "min_confidence": 0.5,
+      "allowed_actions": ["monitor"]
+    }
+  },
+  "protected_ips": ["10.0.0.0/8", "172.16.0.0/12", "192.168.0.0/16"],
+  "whitelisted_ips": ["8.8.8.8", "1.1.1.1"],
+  "response_preferences": {
+    "first_offense": "rate_limit",
+    "repeat_offense_threshold": 3,
+    "escalation_enabled": true
+  }
+}

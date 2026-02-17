@@ -1,0 +1,2904 @@
+================================================================================
+AGENTIC NETWORK SECURITY MONITOR - INCIDENT REPORT
+Generated: 2026-02-17T15:07:20.655231
+================================================================================
+
+Total Incidents: 413
+
+
+CRITICAL SEVERITY (9 incidents)
+--------------------------------------------------------------------------------
+
+IP: 121.55.40.114
+Threats: anomaly, ddos
+Confidence: 0.99
+Action: block
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 198, 'total_bytes': 464742, 'failed_logins': 0, 'connection_rate': 3.3}
+
+IP: 158.248.110.48
+Threats: anomaly, ddos
+Confidence: 1.00
+Action: block
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 233, 'total_bytes': 557446, 'failed_logins': 0, 'connection_rate': 3.8833333333333333}
+
+IP: 158.248.110.48
+Threats: anomaly, ddos
+Confidence: 1.00
+Action: block
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 271, 'total_bytes': 699309, 'failed_logins': 0, 'connection_rate': 4.516666666666667}
+
+IP: 162.54.240.134
+Threats: anomaly, ddos
+Confidence: 1.00
+Action: block
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 253, 'total_bytes': 574796, 'failed_logins': 0, 'connection_rate': 4.216666666666667}
+
+IP: 174.18.70.116
+Threats: anomaly, ddos
+Confidence: 1.00
+Action: block
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 242, 'total_bytes': 643768, 'failed_logins': 0, 'connection_rate': 4.033333333333333}
+
+IP: 177.39.150.79
+Threats: anomaly, ddos
+Confidence: 0.94
+Action: block
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 188, 'total_bytes': 517150, 'failed_logins': 0, 'connection_rate': 3.1333333333333333}
+
+IP: 179.77.195.40
+Threats: anomaly, ddos
+Confidence: 1.00
+Action: block
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 208, 'total_bytes': 517674, 'failed_logins': 0, 'connection_rate': 3.466666666666667}
+
+IP: 198.163.100.124
+Threats: anomaly, ddos
+Confidence: 1.00
+Action: block
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 206, 'total_bytes': 522850, 'failed_logins': 0, 'connection_rate': 3.433333333333333}
+
+IP: 66.43.28.185
+Threats: anomaly, ddos
+Confidence: 1.00
+Action: block
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 285, 'total_bytes': 734062, 'failed_logins': 0, 'connection_rate': 4.75}
+
+HIGH SEVERITY (404 incidents)
+--------------------------------------------------------------------------------
+
+IP: 104.253.245.120
+Threats: brute_force, anomaly
+Confidence: 0.69
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 5, 'total_bytes': 2801, 'failed_logins': 5, 'connection_rate': 0.08333333333333333}
+
+IP: 104.253.245.120
+Threats: brute_force, anomaly
+Confidence: 0.69
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 5, 'total_bytes': 2588, 'failed_logins': 5, 'connection_rate': 0.08333333333333333}
+
+IP: 104.253.245.120
+Threats: anomaly, port_scan
+Confidence: 0.70
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 28, 'connection_count': 28, 'total_bytes': 7597, 'failed_logins': 0, 'connection_rate': 0.4666666666666667}
+
+IP: 104.253.245.120
+Threats: brute_force, anomaly
+Confidence: 0.80
+Action: rate_limit
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 8, 'total_bytes': 3685, 'failed_logins': 8, 'connection_rate': 0.13333333333333333}
+
+IP: 104.253.245.120
+Threats: brute_force, anomaly
+Confidence: 0.69
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 5, 'total_bytes': 2857, 'failed_logins': 5, 'connection_rate': 0.08333333333333333}
+
+IP: 104.3.117.92
+Threats: brute_force, anomaly
+Confidence: 0.69
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 6, 'total_bytes': 3287, 'failed_logins': 6, 'connection_rate': 0.1}
+
+IP: 104.3.117.92
+Threats: brute_force, anomaly
+Confidence: 0.69
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 5, 'total_bytes': 3319, 'failed_logins': 5, 'connection_rate': 0.08333333333333333}
+
+IP: 104.3.117.92
+Threats: anomaly, port_scan
+Confidence: 0.68
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 24, 'connection_count': 24, 'total_bytes': 6607, 'failed_logins': 0, 'connection_rate': 0.4}
+
+IP: 104.3.117.92
+Threats: anomaly, port_scan
+Confidence: 0.68
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 26, 'connection_count': 26, 'total_bytes': 7216, 'failed_logins': 0, 'connection_rate': 0.43333333333333335}
+
+IP: 104.3.117.92
+Threats: anomaly, port_scan
+Confidence: 0.68
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 21, 'connection_count': 21, 'total_bytes': 4533, 'failed_logins': 0, 'connection_rate': 0.35}
+
+IP: 111.22.19.38
+Threats: anomaly, ddos
+Confidence: 0.70
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 128, 'total_bytes': 335705, 'failed_logins': 0, 'connection_rate': 2.1333333333333333}
+
+IP: 111.22.19.38
+Threats: anomaly, port_scan
+Confidence: 0.68
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 26, 'connection_count': 26, 'total_bytes': 8577, 'failed_logins': 0, 'connection_rate': 0.43333333333333335}
+
+IP: 111.22.19.38
+Threats: anomaly, port_scan
+Confidence: 0.68
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 22, 'connection_count': 22, 'total_bytes': 6223, 'failed_logins': 0, 'connection_rate': 0.36666666666666664}
+
+IP: 111.22.19.38
+Threats: anomaly, port_scan
+Confidence: 0.93
+Action: rate_limit
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 37, 'connection_count': 37, 'total_bytes': 10850, 'failed_logins': 0, 'connection_rate': 0.6166666666666667}
+
+IP: 111.22.19.38
+Threats: anomaly, port_scan
+Confidence: 0.68
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 21, 'connection_count': 21, 'total_bytes': 6831, 'failed_logins': 0, 'connection_rate': 0.35}
+
+IP: 111.22.19.38
+Threats: brute_force, anomaly
+Confidence: 0.69
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 5, 'total_bytes': 2798, 'failed_logins': 5, 'connection_rate': 0.08333333333333333}
+
+IP: 111.22.19.38
+Threats: brute_force, anomaly
+Confidence: 0.69
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 6, 'total_bytes': 3560, 'failed_logins': 6, 'connection_rate': 0.1}
+
+IP: 111.22.19.38
+Threats: brute_force, anomaly
+Confidence: 0.69
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 5, 'total_bytes': 3212, 'failed_logins': 5, 'connection_rate': 0.08333333333333333}
+
+IP: 111.22.19.38
+Threats: brute_force, anomaly
+Confidence: 0.69
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 5, 'total_bytes': 1458, 'failed_logins': 5, 'connection_rate': 0.08333333333333333}
+
+IP: 121.55.40.114
+Threats: anomaly, port_scan
+Confidence: 0.78
+Action: rate_limit
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 31, 'connection_count': 31, 'total_bytes': 8510, 'failed_logins': 0, 'connection_rate': 0.5166666666666667}
+
+IP: 121.55.40.114
+Threats: anomaly, ddos
+Confidence: 0.72
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 145, 'total_bytes': 354859, 'failed_logins': 0, 'connection_rate': 2.4166666666666665}
+
+IP: 121.55.40.114
+Threats: anomaly, ddos
+Confidence: 0.70
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 121, 'total_bytes': 337672, 'failed_logins': 0, 'connection_rate': 2.0166666666666666}
+
+IP: 121.55.40.114
+Threats: anomaly, port_scan
+Confidence: 1.00
+Action: rate_limit
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 43, 'connection_count': 43, 'total_bytes': 13490, 'failed_logins': 0, 'connection_rate': 0.7166666666666667}
+
+IP: 128.218.97.184
+Threats: anomaly, port_scan
+Confidence: 0.68
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 22, 'connection_count': 22, 'total_bytes': 6189, 'failed_logins': 0, 'connection_rate': 0.36666666666666664}
+
+IP: 128.218.97.184
+Threats: anomaly, port_scan
+Confidence: 0.68
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 27, 'connection_count': 27, 'total_bytes': 7000, 'failed_logins': 0, 'connection_rate': 0.45}
+
+IP: 128.218.97.184
+Threats: brute_force, anomaly
+Confidence: 0.69
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 5, 'total_bytes': 3116, 'failed_logins': 5, 'connection_rate': 0.08333333333333333}
+
+IP: 128.218.97.184
+Threats: brute_force, anomaly
+Confidence: 0.69
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 5, 'total_bytes': 2994, 'failed_logins': 5, 'connection_rate': 0.08333333333333333}
+
+IP: 134.52.166.232
+Threats: anomaly, ddos
+Confidence: 0.70
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 120, 'total_bytes': 279248, 'failed_logins': 0, 'connection_rate': 2.0}
+
+IP: 134.52.166.232
+Threats: brute_force, anomaly
+Confidence: 0.69
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 5, 'total_bytes': 2488, 'failed_logins': 5, 'connection_rate': 0.08333333333333333}
+
+IP: 134.52.166.232
+Threats: brute_force, anomaly
+Confidence: 0.69
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 5, 'total_bytes': 2892, 'failed_logins': 5, 'connection_rate': 0.08333333333333333}
+
+IP: 134.52.166.232
+Threats: anomaly, ddos
+Confidence: 0.70
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 124, 'total_bytes': 297998, 'failed_logins': 0, 'connection_rate': 2.066666666666667}
+
+IP: 135.240.159.207
+Threats: brute_force, anomaly
+Confidence: 0.69
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 5, 'total_bytes': 2425, 'failed_logins': 5, 'connection_rate': 0.08333333333333333}
+
+IP: 135.240.159.207
+Threats: brute_force, anomaly
+Confidence: 0.69
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 5, 'total_bytes': 3063, 'failed_logins': 5, 'connection_rate': 0.08333333333333333}
+
+IP: 135.240.159.207
+Threats: brute_force, anomaly
+Confidence: 0.69
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 5, 'total_bytes': 1416, 'failed_logins': 5, 'connection_rate': 0.08333333333333333}
+
+IP: 135.240.159.207
+Threats: anomaly, port_scan
+Confidence: 0.68
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 26, 'connection_count': 26, 'total_bytes': 6892, 'failed_logins': 0, 'connection_rate': 0.43333333333333335}
+
+IP: 135.240.159.207
+Threats: anomaly, port_scan
+Confidence: 0.68
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 20, 'connection_count': 20, 'total_bytes': 5110, 'failed_logins': 0, 'connection_rate': 0.3333333333333333}
+
+IP: 135.240.159.207
+Threats: brute_force, anomaly
+Confidence: 0.69
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 6, 'total_bytes': 4108, 'failed_logins': 6, 'connection_rate': 0.1}
+
+IP: 144.247.30.207
+Threats: anomaly, ddos
+Confidence: 0.70
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 122, 'total_bytes': 296821, 'failed_logins': 0, 'connection_rate': 2.033333333333333}
+
+IP: 144.247.30.207
+Threats: anomaly, port_scan
+Confidence: 0.90
+Action: rate_limit
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 36, 'connection_count': 36, 'total_bytes': 10892, 'failed_logins': 0, 'connection_rate': 0.6}
+
+IP: 144.247.30.207
+Threats: anomaly, ddos
+Confidence: 0.70
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 126, 'total_bytes': 326649, 'failed_logins': 0, 'connection_rate': 2.1}
+
+IP: 144.247.30.207
+Threats: anomaly, ddos
+Confidence: 0.70
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 137, 'total_bytes': 338642, 'failed_logins': 0, 'connection_rate': 2.283333333333333}
+
+IP: 144.247.30.207
+Threats: brute_force, anomaly
+Confidence: 0.69
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 5, 'total_bytes': 2813, 'failed_logins': 5, 'connection_rate': 0.08333333333333333}
+
+IP: 144.247.30.207
+Threats: anomaly, port_scan
+Confidence: 0.80
+Action: rate_limit
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 32, 'connection_count': 32, 'total_bytes': 9279, 'failed_logins': 0, 'connection_rate': 0.5333333333333333}
+
+IP: 144.247.30.207
+Threats: brute_force, anomaly
+Confidence: 0.69
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 6, 'total_bytes': 2984, 'failed_logins': 6, 'connection_rate': 0.1}
+
+IP: 144.247.30.207
+Threats: brute_force, anomaly
+Confidence: 0.69
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 5, 'total_bytes': 3634, 'failed_logins': 5, 'connection_rate': 0.08333333333333333}
+
+IP: 144.247.30.207
+Threats: anomaly, ddos
+Confidence: 0.86
+Action: rate_limit
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 173, 'total_bytes': 403678, 'failed_logins': 0, 'connection_rate': 2.8833333333333333}
+
+IP: 158.248.110.48
+Threats: anomaly, ddos
+Confidence: 0.70
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 141, 'total_bytes': 340837, 'failed_logins': 0, 'connection_rate': 2.35}
+
+IP: 158.248.110.48
+Threats: anomaly, port_scan
+Confidence: 0.68
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 26, 'connection_count': 27, 'total_bytes': 8697, 'failed_logins': 2, 'connection_rate': 0.45}
+
+IP: 158.248.110.48
+Threats: anomaly, port_scan
+Confidence: 0.82
+Action: rate_limit
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 33, 'connection_count': 33, 'total_bytes': 10709, 'failed_logins': 0, 'connection_rate': 0.55}
+
+IP: 158.248.110.48
+Threats: brute_force, anomaly
+Confidence: 0.69
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 6, 'total_bytes': 4328, 'failed_logins': 6, 'connection_rate': 0.1}
+
+IP: 158.248.110.48
+Threats: brute_force, anomaly
+Confidence: 0.69
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 5, 'total_bytes': 2529, 'failed_logins': 5, 'connection_rate': 0.08333333333333333}
+
+IP: 162.54.240.134
+Threats: anomaly, ddos
+Confidence: 0.90
+Action: rate_limit
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 179, 'total_bytes': 465891, 'failed_logins': 0, 'connection_rate': 2.9833333333333334}
+
+IP: 162.54.240.134
+Threats: brute_force, anomaly
+Confidence: 0.69
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 6, 'total_bytes': 3716, 'failed_logins': 6, 'connection_rate': 0.1}
+
+IP: 162.54.240.134
+Threats: brute_force, anomaly
+Confidence: 0.70
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 7, 'total_bytes': 3815, 'failed_logins': 7, 'connection_rate': 0.11666666666666667}
+
+IP: 162.54.240.134
+Threats: brute_force, anomaly
+Confidence: 0.69
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 5, 'total_bytes': 3229, 'failed_logins': 5, 'connection_rate': 0.08333333333333333}
+
+IP: 162.54.240.134
+Threats: brute_force, anomaly
+Confidence: 0.69
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 6, 'total_bytes': 2487, 'failed_logins': 6, 'connection_rate': 0.1}
+
+IP: 164.4.126.60
+Threats: anomaly, ddos
+Confidence: 0.70
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 133, 'total_bytes': 340159, 'failed_logins': 0, 'connection_rate': 2.216666666666667}
+
+IP: 164.4.126.60
+Threats: anomaly, ddos
+Confidence: 0.83
+Action: rate_limit
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 167, 'total_bytes': 411902, 'failed_logins': 0, 'connection_rate': 2.783333333333333}
+
+IP: 164.4.126.60
+Threats: anomaly, port_scan
+Confidence: 0.88
+Action: rate_limit
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 35, 'connection_count': 35, 'total_bytes': 9354, 'failed_logins': 0, 'connection_rate': 0.5833333333333334}
+
+IP: 164.4.126.60
+Threats: anomaly, ddos
+Confidence: 0.70
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 134, 'total_bytes': 329748, 'failed_logins': 0, 'connection_rate': 2.2333333333333334}
+
+IP: 174.144.248.184
+Threats: brute_force, anomaly
+Confidence: 0.69
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 6, 'total_bytes': 4707, 'failed_logins': 6, 'connection_rate': 0.1}
+
+IP: 174.144.248.184
+Threats: anomaly, port_scan
+Confidence: 0.80
+Action: rate_limit
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 32, 'connection_count': 32, 'total_bytes': 9964, 'failed_logins': 0, 'connection_rate': 0.5333333333333333}
+
+IP: 174.18.70.116
+Threats: anomaly, port_scan
+Confidence: 0.78
+Action: rate_limit
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 31, 'connection_count': 31, 'total_bytes': 7326, 'failed_logins': 0, 'connection_rate': 0.5166666666666667}
+
+IP: 174.18.70.116
+Threats: brute_force, anomaly
+Confidence: 0.70
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 7, 'total_bytes': 4462, 'failed_logins': 7, 'connection_rate': 0.11666666666666667}
+
+IP: 174.18.70.116
+Threats: anomaly, port_scan
+Confidence: 0.78
+Action: rate_limit
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 31, 'connection_count': 31, 'total_bytes': 9013, 'failed_logins': 0, 'connection_rate': 0.5166666666666667}
+
+IP: 177.39.150.79
+Threats: anomaly, port_scan
+Confidence: 0.68
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 25, 'connection_count': 25, 'total_bytes': 7091, 'failed_logins': 0, 'connection_rate': 0.4166666666666667}
+
+IP: 177.39.150.79
+Threats: anomaly, port_scan
+Confidence: 0.90
+Action: rate_limit
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 36, 'connection_count': 36, 'total_bytes': 10071, 'failed_logins': 0, 'connection_rate': 0.6}
+
+IP: 177.39.150.79
+Threats: brute_force, anomaly
+Confidence: 0.80
+Action: rate_limit
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 8, 'total_bytes': 5512, 'failed_logins': 8, 'connection_rate': 0.13333333333333333}
+
+IP: 177.39.150.79
+Threats: brute_force, anomaly
+Confidence: 0.69
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 6, 'total_bytes': 2906, 'failed_logins': 6, 'connection_rate': 0.1}
+
+IP: 177.39.150.79
+Threats: brute_force, anomaly
+Confidence: 0.80
+Action: rate_limit
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 8, 'total_bytes': 3347, 'failed_logins': 8, 'connection_rate': 0.13333333333333333}
+
+IP: 177.39.150.79
+Threats: anomaly, port_scan
+Confidence: 0.72
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 29, 'connection_count': 29, 'total_bytes': 9651, 'failed_logins': 0, 'connection_rate': 0.48333333333333334}
+
+IP: 179.77.195.40
+Threats: anomaly, ddos
+Confidence: 0.77
+Action: rate_limit
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 153, 'total_bytes': 399421, 'failed_logins': 0, 'connection_rate': 2.55}
+
+IP: 179.77.195.40
+Threats: brute_force, anomaly
+Confidence: 0.69
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 5, 'total_bytes': 2407, 'failed_logins': 5, 'connection_rate': 0.08333333333333333}
+
+IP: 179.77.195.40
+Threats: anomaly, ddos
+Confidence: 0.76
+Action: rate_limit
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 151, 'total_bytes': 375325, 'failed_logins': 0, 'connection_rate': 2.5166666666666666}
+
+IP: 198.163.100.124
+Threats: brute_force, anomaly
+Confidence: 0.70
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 7, 'total_bytes': 4079, 'failed_logins': 7, 'connection_rate': 0.11666666666666667}
+
+IP: 50.193.246.67
+Threats: anomaly, ddos
+Confidence: 0.90
+Action: rate_limit
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 179, 'total_bytes': 478687, 'failed_logins': 0, 'connection_rate': 2.9833333333333334}
+
+IP: 50.193.246.67
+Threats: brute_force, anomaly
+Confidence: 0.69
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 5, 'total_bytes': 2309, 'failed_logins': 5, 'connection_rate': 0.08333333333333333}
+
+IP: 60.140.137.107
+Threats: anomaly, port_scan
+Confidence: 0.88
+Action: rate_limit
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 35, 'connection_count': 35, 'total_bytes': 9022, 'failed_logins': 0, 'connection_rate': 0.5833333333333334}
+
+IP: 60.140.137.107
+Threats: anomaly, port_scan
+Confidence: 0.68
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 27, 'connection_count': 27, 'total_bytes': 6408, 'failed_logins': 0, 'connection_rate': 0.45}
+
+IP: 60.140.137.107
+Threats: brute_force, anomaly
+Confidence: 0.69
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 6, 'total_bytes': 3607, 'failed_logins': 6, 'connection_rate': 0.1}
+
+IP: 66.43.28.185
+Threats: anomaly, port_scan
+Confidence: 0.68
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 21, 'connection_count': 21, 'total_bytes': 5880, 'failed_logins': 0, 'connection_rate': 0.35}
+
+IP: 66.43.28.185
+Threats: anomaly, ddos
+Confidence: 0.81
+Action: rate_limit
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 161, 'total_bytes': 430360, 'failed_logins': 0, 'connection_rate': 2.683333333333333}
+
+IP: 66.43.28.185
+Threats: brute_force, anomaly
+Confidence: 0.69
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 5, 'total_bytes': 3115, 'failed_logins': 5, 'connection_rate': 0.08333333333333333}
+
+IP: 66.43.28.185
+Threats: anomaly, port_scan
+Confidence: 1.00
+Action: rate_limit
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 40, 'connection_count': 40, 'total_bytes': 11479, 'failed_logins': 0, 'connection_rate': 0.6666666666666666}
+
+IP: 69.88.158.132
+Threats: anomaly, port_scan
+Confidence: 0.80
+Action: rate_limit
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 32, 'connection_count': 32, 'total_bytes': 8849, 'failed_logins': 0, 'connection_rate': 0.5333333333333333}
+
+IP: 69.88.158.132
+Threats: anomaly, port_scan
+Confidence: 0.68
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 26, 'connection_count': 26, 'total_bytes': 7062, 'failed_logins': 0, 'connection_rate': 0.43333333333333335}
+
+IP: 69.88.158.132
+Threats: brute_force, anomaly
+Confidence: 0.69
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 5, 'total_bytes': 2767, 'failed_logins': 5, 'connection_rate': 0.08333333333333333}
+
+IP: 104.253.245.120
+Threats: anomaly
+Confidence: 0.63
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 1, 'total_bytes': 947, 'failed_logins': 1, 'connection_rate': 0.016666666666666666}
+
+IP: 104.253.245.120
+Threats: anomaly
+Confidence: 0.69
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 2, 'total_bytes': 479, 'failed_logins': 2, 'connection_rate': 0.03333333333333333}
+
+IP: 104.253.245.120
+Threats: anomaly
+Confidence: 0.69
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 3, 'total_bytes': 1191, 'failed_logins': 3, 'connection_rate': 0.05}
+
+IP: 104.253.245.120
+Threats: anomaly
+Confidence: 0.68
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 16, 'connection_count': 16, 'total_bytes': 4150, 'failed_logins': 0, 'connection_rate': 0.26666666666666666}
+
+IP: 104.253.245.120
+Threats: anomaly
+Confidence: 0.68
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 14, 'connection_count': 14, 'total_bytes': 3322, 'failed_logins': 0, 'connection_rate': 0.23333333333333334}
+
+IP: 104.253.245.120
+Threats: anomaly
+Confidence: 0.69
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 2, 'total_bytes': 1227, 'failed_logins': 2, 'connection_rate': 0.03333333333333333}
+
+IP: 104.253.245.120
+Threats: anomaly
+Confidence: 0.69
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 4, 'total_bytes': 2237, 'failed_logins': 4, 'connection_rate': 0.06666666666666667}
+
+IP: 104.253.245.120
+Threats: anomaly
+Confidence: 0.69
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 2, 'total_bytes': 745, 'failed_logins': 2, 'connection_rate': 0.03333333333333333}
+
+IP: 104.253.245.120
+Threats: anomaly
+Confidence: 0.64
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 1, 'total_bytes': 436, 'failed_logins': 1, 'connection_rate': 0.016666666666666666}
+
+IP: 104.253.245.120
+Threats: anomaly
+Confidence: 0.68
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 16, 'connection_count': 16, 'total_bytes': 4832, 'failed_logins': 0, 'connection_rate': 0.26666666666666666}
+
+IP: 104.253.245.120
+Threats: anomaly
+Confidence: 0.64
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 1, 'total_bytes': 617, 'failed_logins': 1, 'connection_rate': 0.016666666666666666}
+
+IP: 104.253.245.120
+Threats: anomaly
+Confidence: 0.69
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 3, 'total_bytes': 1663, 'failed_logins': 3, 'connection_rate': 0.05}
+
+IP: 104.253.245.120
+Threats: anomaly
+Confidence: 0.63
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 1, 'total_bytes': 715, 'failed_logins': 1, 'connection_rate': 0.016666666666666666}
+
+IP: 104.253.245.120
+Threats: anomaly
+Confidence: 0.69
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 2, 'total_bytes': 769, 'failed_logins': 2, 'connection_rate': 0.03333333333333333}
+
+IP: 104.3.117.92
+Threats: anomaly
+Confidence: 0.69
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 2, 'total_bytes': 717, 'failed_logins': 2, 'connection_rate': 0.03333333333333333}
+
+IP: 104.3.117.92
+Threats: anomaly
+Confidence: 0.69
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 2, 'total_bytes': 944, 'failed_logins': 2, 'connection_rate': 0.03333333333333333}
+
+IP: 104.3.117.92
+Threats: anomaly
+Confidence: 0.69
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 3, 'total_bytes': 2344, 'failed_logins': 3, 'connection_rate': 0.05}
+
+IP: 104.3.117.92
+Threats: anomaly
+Confidence: 0.69
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 2, 'total_bytes': 1518, 'failed_logins': 2, 'connection_rate': 0.03333333333333333}
+
+IP: 104.3.117.92
+Threats: anomaly
+Confidence: 0.68
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 2, 'total_bytes': 1900, 'failed_logins': 2, 'connection_rate': 0.03333333333333333}
+
+IP: 104.3.117.92
+Threats: anomaly
+Confidence: 0.69
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 3, 'total_bytes': 1449, 'failed_logins': 3, 'connection_rate': 0.05}
+
+IP: 104.3.117.92
+Threats: anomaly
+Confidence: 0.69
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 4, 'total_bytes': 2615, 'failed_logins': 4, 'connection_rate': 0.06666666666666667}
+
+IP: 104.3.117.92
+Threats: anomaly
+Confidence: 0.64
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 1, 'total_bytes': 352, 'failed_logins': 1, 'connection_rate': 0.016666666666666666}
+
+IP: 104.3.117.92
+Threats: anomaly
+Confidence: 0.69
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 2, 'total_bytes': 218, 'failed_logins': 2, 'connection_rate': 0.03333333333333333}
+
+IP: 104.3.117.92
+Threats: anomaly
+Confidence: 0.68
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 6, 'connection_count': 6, 'total_bytes': 1723, 'failed_logins': 0, 'connection_rate': 0.1}
+
+IP: 111.22.19.38
+Threats: anomaly
+Confidence: 0.69
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 23, 'total_bytes': 62852, 'failed_logins': 0, 'connection_rate': 0.38333333333333336}
+
+IP: 111.22.19.38
+Threats: anomaly
+Confidence: 0.64
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 1, 'total_bytes': 273, 'failed_logins': 0, 'connection_rate': 0.016666666666666666}
+
+IP: 111.22.19.38
+Threats: anomaly
+Confidence: 0.64
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 1, 'total_bytes': 199, 'failed_logins': 1, 'connection_rate': 0.016666666666666666}
+
+IP: 111.22.19.38
+Threats: anomaly
+Confidence: 0.69
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 3, 'total_bytes': 1779, 'failed_logins': 3, 'connection_rate': 0.05}
+
+IP: 111.22.19.38
+Threats: anomaly
+Confidence: 0.69
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 3, 'total_bytes': 1364, 'failed_logins': 3, 'connection_rate': 0.05}
+
+IP: 111.22.19.38
+Threats: anomaly
+Confidence: 0.69
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 2, 'total_bytes': 709, 'failed_logins': 2, 'connection_rate': 0.03333333333333333}
+
+IP: 111.22.19.38
+Threats: anomaly
+Confidence: 0.69
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 2, 'total_bytes': 1621, 'failed_logins': 2, 'connection_rate': 0.03333333333333333}
+
+IP: 111.22.19.38
+Threats: anomaly
+Confidence: 0.69
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 2, 'total_bytes': 1109, 'failed_logins': 2, 'connection_rate': 0.03333333333333333}
+
+IP: 111.22.19.38
+Threats: anomaly
+Confidence: 0.68
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 8, 'connection_count': 8, 'total_bytes': 2125, 'failed_logins': 0, 'connection_rate': 0.13333333333333333}
+
+IP: 111.22.19.38
+Threats: anomaly
+Confidence: 0.69
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 3, 'total_bytes': 683, 'failed_logins': 3, 'connection_rate': 0.05}
+
+IP: 111.22.19.38
+Threats: anomaly
+Confidence: 0.69
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 4, 'total_bytes': 1881, 'failed_logins': 4, 'connection_rate': 0.06666666666666667}
+
+IP: 111.22.19.38
+Threats: anomaly
+Confidence: 0.69
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 4, 'total_bytes': 2941, 'failed_logins': 4, 'connection_rate': 0.06666666666666667}
+
+IP: 111.22.19.38
+Threats: anomaly
+Confidence: 0.69
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 4, 'total_bytes': 1483, 'failed_logins': 4, 'connection_rate': 0.06666666666666667}
+
+IP: 111.22.19.38
+Threats: anomaly
+Confidence: 0.69
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 2, 'total_bytes': 1484, 'failed_logins': 2, 'connection_rate': 0.03333333333333333}
+
+IP: 111.22.19.38
+Threats: anomaly
+Confidence: 0.69
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 2, 'total_bytes': 1619, 'failed_logins': 2, 'connection_rate': 0.03333333333333333}
+
+IP: 111.22.19.38
+Threats: anomaly
+Confidence: 0.69
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 3, 'total_bytes': 1658, 'failed_logins': 3, 'connection_rate': 0.05}
+
+IP: 111.22.19.38
+Threats: anomaly
+Confidence: 0.69
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 4, 'total_bytes': 1530, 'failed_logins': 4, 'connection_rate': 0.06666666666666667}
+
+IP: 111.22.19.38
+Threats: anomaly
+Confidence: 0.63
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 1, 'total_bytes': 658, 'failed_logins': 1, 'connection_rate': 0.016666666666666666}
+
+IP: 111.22.19.38
+Threats: anomaly
+Confidence: 0.69
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 3, 'total_bytes': 1624, 'failed_logins': 3, 'connection_rate': 0.05}
+
+IP: 111.22.19.38
+Threats: anomaly
+Confidence: 0.69
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 2, 'total_bytes': 1162, 'failed_logins': 2, 'connection_rate': 0.03333333333333333}
+
+IP: 111.22.19.38
+Threats: anomaly
+Confidence: 0.69
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 2, 'total_bytes': 1130, 'failed_logins': 2, 'connection_rate': 0.03333333333333333}
+
+IP: 111.22.19.38
+Threats: anomaly
+Confidence: 0.69
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 2, 'total_bytes': 1178, 'failed_logins': 2, 'connection_rate': 0.03333333333333333}
+
+IP: 121.55.40.114
+Threats: anomaly
+Confidence: 0.70
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 67, 'total_bytes': 169566, 'failed_logins': 0, 'connection_rate': 1.1166666666666667}
+
+IP: 121.55.40.114
+Threats: anomaly
+Confidence: 0.70
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 72, 'total_bytes': 189349, 'failed_logins': 0, 'connection_rate': 1.2}
+
+IP: 121.55.40.114
+Threats: anomaly
+Confidence: 0.70
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 78, 'total_bytes': 196496, 'failed_logins': 0, 'connection_rate': 1.3}
+
+IP: 121.55.40.114
+Threats: anomaly
+Confidence: 0.70
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 82, 'total_bytes': 199198, 'failed_logins': 0, 'connection_rate': 1.3666666666666667}
+
+IP: 121.55.40.114
+Threats: anomaly
+Confidence: 0.69
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 2, 'total_bytes': 1530, 'failed_logins': 2, 'connection_rate': 0.03333333333333333}
+
+IP: 121.55.40.114
+Threats: anomaly
+Confidence: 0.69
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 3, 'total_bytes': 1113, 'failed_logins': 3, 'connection_rate': 0.05}
+
+IP: 121.55.40.114
+Threats: anomaly
+Confidence: 0.69
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 3, 'total_bytes': 1720, 'failed_logins': 3, 'connection_rate': 0.05}
+
+IP: 121.55.40.114
+Threats: anomaly
+Confidence: 0.69
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 3, 'total_bytes': 2194, 'failed_logins': 3, 'connection_rate': 0.05}
+
+IP: 121.55.40.114
+Threats: anomaly
+Confidence: 0.64
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 1, 'total_bytes': 359, 'failed_logins': 1, 'connection_rate': 0.016666666666666666}
+
+IP: 121.55.40.114
+Threats: anomaly
+Confidence: 0.69
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 3, 'total_bytes': 1892, 'failed_logins': 3, 'connection_rate': 0.05}
+
+IP: 121.55.40.114
+Threats: anomaly
+Confidence: 0.69
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 2, 'total_bytes': 904, 'failed_logins': 2, 'connection_rate': 0.03333333333333333}
+
+IP: 121.55.40.114
+Threats: anomaly
+Confidence: 0.69
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 2, 'total_bytes': 834, 'failed_logins': 2, 'connection_rate': 0.03333333333333333}
+
+IP: 121.55.40.114
+Threats: anomaly
+Confidence: 0.69
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 4, 'total_bytes': 2140, 'failed_logins': 4, 'connection_rate': 0.06666666666666667}
+
+IP: 121.55.40.114
+Threats: anomaly
+Confidence: 0.63
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 1, 'total_bytes': 891, 'failed_logins': 1, 'connection_rate': 0.016666666666666666}
+
+IP: 121.55.40.114
+Threats: anomaly
+Confidence: 0.68
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 2, 'total_bytes': 1703, 'failed_logins': 2, 'connection_rate': 0.03333333333333333}
+
+IP: 121.55.40.114
+Threats: anomaly
+Confidence: 0.68
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 17, 'connection_count': 17, 'total_bytes': 4266, 'failed_logins': 0, 'connection_rate': 0.2833333333333333}
+
+IP: 121.55.40.114
+Threats: anomaly
+Confidence: 0.68
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 8, 'connection_count': 8, 'total_bytes': 2262, 'failed_logins': 0, 'connection_rate': 0.13333333333333333}
+
+IP: 121.55.40.114
+Threats: anomaly
+Confidence: 0.69
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 2, 'total_bytes': 1160, 'failed_logins': 2, 'connection_rate': 0.03333333333333333}
+
+IP: 121.55.40.114
+Threats: anomaly
+Confidence: 0.69
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 3, 'total_bytes': 2350, 'failed_logins': 3, 'connection_rate': 0.05}
+
+IP: 121.55.40.114
+Threats: anomaly
+Confidence: 0.69
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 3, 'total_bytes': 2079, 'failed_logins': 3, 'connection_rate': 0.05}
+
+IP: 121.55.40.114
+Threats: anomaly
+Confidence: 0.69
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 4, 'total_bytes': 1351, 'failed_logins': 4, 'connection_rate': 0.06666666666666667}
+
+IP: 121.55.40.114
+Threats: anomaly
+Confidence: 0.69
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 4, 'total_bytes': 1815, 'failed_logins': 4, 'connection_rate': 0.06666666666666667}
+
+IP: 121.55.40.114
+Threats: anomaly
+Confidence: 0.64
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 1, 'total_bytes': 575, 'failed_logins': 1, 'connection_rate': 0.016666666666666666}
+
+IP: 121.55.40.114
+Threats: anomaly
+Confidence: 0.70
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 54, 'total_bytes': 143612, 'failed_logins': 0, 'connection_rate': 0.9}
+
+IP: 121.55.40.114
+Threats: anomaly
+Confidence: 0.68
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 7, 'connection_count': 7, 'total_bytes': 1837, 'failed_logins': 0, 'connection_rate': 0.11666666666666667}
+
+IP: 128.218.97.184
+Threats: anomaly
+Confidence: 0.69
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 2, 'total_bytes': 1339, 'failed_logins': 2, 'connection_rate': 0.03333333333333333}
+
+IP: 128.218.97.184
+Threats: anomaly
+Confidence: 0.69
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 3, 'total_bytes': 1419, 'failed_logins': 3, 'connection_rate': 0.05}
+
+IP: 128.218.97.184
+Threats: anomaly
+Confidence: 0.69
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 2, 'total_bytes': 856, 'failed_logins': 2, 'connection_rate': 0.03333333333333333}
+
+IP: 128.218.97.184
+Threats: anomaly
+Confidence: 0.69
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 2, 'total_bytes': 516, 'failed_logins': 2, 'connection_rate': 0.03333333333333333}
+
+IP: 128.218.97.184
+Threats: anomaly
+Confidence: 0.64
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 1, 'total_bytes': 458, 'failed_logins': 1, 'connection_rate': 0.016666666666666666}
+
+IP: 128.218.97.184
+Threats: anomaly
+Confidence: 0.69
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 4, 'total_bytes': 2337, 'failed_logins': 4, 'connection_rate': 0.06666666666666667}
+
+IP: 128.218.97.184
+Threats: anomaly
+Confidence: 0.69
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 2, 'total_bytes': 901, 'failed_logins': 2, 'connection_rate': 0.03333333333333333}
+
+IP: 128.218.97.184
+Threats: anomaly
+Confidence: 0.63
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 1, 'total_bytes': 870, 'failed_logins': 1, 'connection_rate': 0.016666666666666666}
+
+IP: 128.218.97.184
+Threats: anomaly
+Confidence: 0.64
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 1, 'total_bytes': 225, 'failed_logins': 1, 'connection_rate': 0.016666666666666666}
+
+IP: 128.218.97.184
+Threats: anomaly
+Confidence: 0.64
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 1, 'total_bytes': 128, 'failed_logins': 1, 'connection_rate': 0.016666666666666666}
+
+IP: 128.218.97.184
+Threats: anomaly
+Confidence: 0.69
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 2, 'total_bytes': 1107, 'failed_logins': 2, 'connection_rate': 0.03333333333333333}
+
+IP: 128.218.97.184
+Threats: anomaly
+Confidence: 0.69
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 3, 'total_bytes': 2317, 'failed_logins': 3, 'connection_rate': 0.05}
+
+IP: 128.218.97.184
+Threats: anomaly
+Confidence: 0.69
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 2, 'total_bytes': 1366, 'failed_logins': 2, 'connection_rate': 0.03333333333333333}
+
+IP: 128.218.97.184
+Threats: anomaly
+Confidence: 0.69
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 4, 'total_bytes': 1715, 'failed_logins': 4, 'connection_rate': 0.06666666666666667}
+
+IP: 128.218.97.184
+Threats: anomaly
+Confidence: 0.69
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 4, 'total_bytes': 1358, 'failed_logins': 4, 'connection_rate': 0.06666666666666667}
+
+IP: 128.218.97.184
+Threats: anomaly
+Confidence: 0.69
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 2, 'total_bytes': 1869, 'failed_logins': 2, 'connection_rate': 0.03333333333333333}
+
+IP: 128.218.97.184
+Threats: anomaly
+Confidence: 0.68
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 12, 'connection_count': 12, 'total_bytes': 3969, 'failed_logins': 0, 'connection_rate': 0.2}
+
+IP: 128.218.97.184
+Threats: anomaly
+Confidence: 0.68
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 14, 'connection_count': 14, 'total_bytes': 4188, 'failed_logins': 0, 'connection_rate': 0.23333333333333334}
+
+IP: 134.52.166.232
+Threats: anomaly
+Confidence: 0.70
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 47, 'total_bytes': 116503, 'failed_logins': 0, 'connection_rate': 0.7833333333333333}
+
+IP: 134.52.166.232
+Threats: anomaly
+Confidence: 0.68
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 15, 'connection_count': 15, 'total_bytes': 4278, 'failed_logins': 0, 'connection_rate': 0.25}
+
+IP: 134.52.166.232
+Threats: anomaly
+Confidence: 0.68
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 19, 'connection_count': 19, 'total_bytes': 5641, 'failed_logins': 0, 'connection_rate': 0.31666666666666665}
+
+IP: 134.52.166.232
+Threats: anomaly
+Confidence: 0.69
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 2, 'total_bytes': 660, 'failed_logins': 2, 'connection_rate': 0.03333333333333333}
+
+IP: 134.52.166.232
+Threats: anomaly
+Confidence: 0.69
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 2, 'total_bytes': 867, 'failed_logins': 2, 'connection_rate': 0.03333333333333333}
+
+IP: 134.52.166.232
+Threats: anomaly
+Confidence: 0.69
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 3, 'total_bytes': 2080, 'failed_logins': 3, 'connection_rate': 0.05}
+
+IP: 134.52.166.232
+Threats: anomaly
+Confidence: 0.69
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 3, 'total_bytes': 2290, 'failed_logins': 3, 'connection_rate': 0.05}
+
+IP: 134.52.166.232
+Threats: anomaly
+Confidence: 0.68
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 9, 'connection_count': 9, 'total_bytes': 2104, 'failed_logins': 0, 'connection_rate': 0.15}
+
+IP: 134.52.166.232
+Threats: anomaly
+Confidence: 0.68
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 17, 'connection_count': 17, 'total_bytes': 4688, 'failed_logins': 0, 'connection_rate': 0.2833333333333333}
+
+IP: 134.52.166.232
+Threats: anomaly
+Confidence: 0.70
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 89, 'total_bytes': 209739, 'failed_logins': 0, 'connection_rate': 1.4833333333333334}
+
+IP: 134.52.166.232
+Threats: anomaly
+Confidence: 0.63
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 1, 'total_bytes': 707, 'failed_logins': 1, 'connection_rate': 0.016666666666666666}
+
+IP: 134.52.166.232
+Threats: anomaly
+Confidence: 0.69
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 4, 'total_bytes': 1858, 'failed_logins': 4, 'connection_rate': 0.06666666666666667}
+
+IP: 134.52.166.232
+Threats: anomaly
+Confidence: 0.69
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 2, 'total_bytes': 1499, 'failed_logins': 2, 'connection_rate': 0.03333333333333333}
+
+IP: 134.52.166.232
+Threats: anomaly
+Confidence: 0.69
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 4, 'total_bytes': 2388, 'failed_logins': 4, 'connection_rate': 0.06666666666666667}
+
+IP: 134.52.166.232
+Threats: anomaly
+Confidence: 0.64
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 1, 'total_bytes': 422, 'failed_logins': 1, 'connection_rate': 0.016666666666666666}
+
+IP: 135.240.159.207
+Threats: anomaly
+Confidence: 0.63
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 1, 'total_bytes': 815, 'failed_logins': 1, 'connection_rate': 0.016666666666666666}
+
+IP: 135.240.159.207
+Threats: anomaly
+Confidence: 0.69
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 3, 'total_bytes': 1863, 'failed_logins': 3, 'connection_rate': 0.05}
+
+IP: 135.240.159.207
+Threats: anomaly
+Confidence: 0.64
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 1, 'total_bytes': 272, 'failed_logins': 1, 'connection_rate': 0.016666666666666666}
+
+IP: 135.240.159.207
+Threats: anomaly
+Confidence: 0.63
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 1, 'total_bytes': 925, 'failed_logins': 1, 'connection_rate': 0.016666666666666666}
+
+IP: 135.240.159.207
+Threats: anomaly
+Confidence: 0.69
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 2, 'total_bytes': 1007, 'failed_logins': 2, 'connection_rate': 0.03333333333333333}
+
+IP: 135.240.159.207
+Threats: anomaly
+Confidence: 0.69
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 3, 'total_bytes': 1523, 'failed_logins': 3, 'connection_rate': 0.05}
+
+IP: 144.247.30.207
+Threats: anomaly
+Confidence: 0.70
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 99, 'total_bytes': 234685, 'failed_logins': 0, 'connection_rate': 1.65}
+
+IP: 144.247.30.207
+Threats: anomaly
+Confidence: 0.67
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 2, 'connection_count': 2, 'total_bytes': 625, 'failed_logins': 0, 'connection_rate': 0.03333333333333333}
+
+IP: 144.247.30.207
+Threats: anomaly
+Confidence: 0.69
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 4, 'total_bytes': 1960, 'failed_logins': 4, 'connection_rate': 0.06666666666666667}
+
+IP: 144.247.30.207
+Threats: anomaly
+Confidence: 0.69
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 3, 'total_bytes': 1457, 'failed_logins': 3, 'connection_rate': 0.05}
+
+IP: 144.247.30.207
+Threats: anomaly
+Confidence: 0.69
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 3, 'total_bytes': 1082, 'failed_logins': 3, 'connection_rate': 0.05}
+
+IP: 144.247.30.207
+Threats: anomaly
+Confidence: 0.69
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 3, 'total_bytes': 1910, 'failed_logins': 3, 'connection_rate': 0.05}
+
+IP: 144.247.30.207
+Threats: anomaly
+Confidence: 0.67
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 2, 'connection_count': 2, 'total_bytes': 431, 'failed_logins': 0, 'connection_rate': 0.03333333333333333}
+
+IP: 144.247.30.207
+Threats: anomaly
+Confidence: 0.63
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 1, 'total_bytes': 844, 'failed_logins': 1, 'connection_rate': 0.016666666666666666}
+
+IP: 144.247.30.207
+Threats: anomaly
+Confidence: 0.69
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 2, 'total_bytes': 1108, 'failed_logins': 2, 'connection_rate': 0.03333333333333333}
+
+IP: 144.247.30.207
+Threats: anomaly
+Confidence: 0.69
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 2, 'total_bytes': 1006, 'failed_logins': 2, 'connection_rate': 0.03333333333333333}
+
+IP: 144.247.30.207
+Threats: anomaly
+Confidence: 0.70
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 98, 'total_bytes': 240777, 'failed_logins': 0, 'connection_rate': 1.6333333333333333}
+
+IP: 158.248.110.48
+Threats: anomaly
+Confidence: 0.70
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 34, 'total_bytes': 84527, 'failed_logins': 0, 'connection_rate': 0.5666666666666667}
+
+IP: 158.248.110.48
+Threats: anomaly
+Confidence: 0.69
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 4, 'total_bytes': 1642, 'failed_logins': 4, 'connection_rate': 0.06666666666666667}
+
+IP: 158.248.110.48
+Threats: anomaly
+Confidence: 0.69
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 3, 'total_bytes': 1815, 'failed_logins': 3, 'connection_rate': 0.05}
+
+IP: 158.248.110.48
+Threats: anomaly
+Confidence: 0.64
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 1, 'total_bytes': 156, 'failed_logins': 1, 'connection_rate': 0.016666666666666666}
+
+IP: 158.248.110.48
+Threats: anomaly
+Confidence: 0.68
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 7, 'connection_count': 7, 'total_bytes': 2129, 'failed_logins': 0, 'connection_rate': 0.11666666666666667}
+
+IP: 158.248.110.48
+Threats: anomaly
+Confidence: 0.68
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 11, 'connection_count': 11, 'total_bytes': 2400, 'failed_logins': 0, 'connection_rate': 0.18333333333333332}
+
+IP: 158.248.110.48
+Threats: anomaly
+Confidence: 0.63
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 1, 'total_bytes': 818, 'failed_logins': 1, 'connection_rate': 0.016666666666666666}
+
+IP: 158.248.110.48
+Threats: anomaly
+Confidence: 0.69
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 4, 'total_bytes': 2258, 'failed_logins': 4, 'connection_rate': 0.06666666666666667}
+
+IP: 158.248.110.48
+Threats: anomaly
+Confidence: 0.63
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 1, 'total_bytes': 778, 'failed_logins': 1, 'connection_rate': 0.016666666666666666}
+
+IP: 158.248.110.48
+Threats: anomaly
+Confidence: 0.69
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 2, 'total_bytes': 917, 'failed_logins': 2, 'connection_rate': 0.03333333333333333}
+
+IP: 158.248.110.48
+Threats: anomaly
+Confidence: 0.69
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 20, 'total_bytes': 56663, 'failed_logins': 0, 'connection_rate': 0.3333333333333333}
+
+IP: 158.248.110.48
+Threats: anomaly
+Confidence: 0.69
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 13, 'total_bytes': 40102, 'failed_logins': 0, 'connection_rate': 0.21666666666666667}
+
+IP: 162.54.240.134
+Threats: anomaly
+Confidence: 0.70
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 91, 'total_bytes': 214419, 'failed_logins': 0, 'connection_rate': 1.5166666666666666}
+
+IP: 162.54.240.134
+Threats: anomaly
+Confidence: 0.70
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 78, 'total_bytes': 216967, 'failed_logins': 0, 'connection_rate': 1.3}
+
+IP: 162.54.240.134
+Threats: anomaly
+Confidence: 0.70
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 85, 'total_bytes': 208066, 'failed_logins': 0, 'connection_rate': 1.4166666666666667}
+
+IP: 162.54.240.134
+Threats: anomaly
+Confidence: 0.69
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 4, 'total_bytes': 2321, 'failed_logins': 4, 'connection_rate': 0.06666666666666667}
+
+IP: 162.54.240.134
+Threats: anomaly
+Confidence: 0.69
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 4, 'total_bytes': 2607, 'failed_logins': 4, 'connection_rate': 0.06666666666666667}
+
+IP: 162.54.240.134
+Threats: anomaly
+Confidence: 0.69
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 4, 'total_bytes': 2033, 'failed_logins': 4, 'connection_rate': 0.06666666666666667}
+
+IP: 162.54.240.134
+Threats: anomaly
+Confidence: 0.70
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 36, 'total_bytes': 94255, 'failed_logins': 0, 'connection_rate': 0.6}
+
+IP: 162.54.240.134
+Threats: anomaly
+Confidence: 0.69
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 2, 'total_bytes': 1401, 'failed_logins': 2, 'connection_rate': 0.03333333333333333}
+
+IP: 162.54.240.134
+Threats: anomaly
+Confidence: 0.69
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 3, 'total_bytes': 974, 'failed_logins': 3, 'connection_rate': 0.05}
+
+IP: 162.54.240.134
+Threats: anomaly
+Confidence: 0.64
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 1, 'total_bytes': 497, 'failed_logins': 1, 'connection_rate': 0.016666666666666666}
+
+IP: 162.54.240.134
+Threats: anomaly
+Confidence: 0.63
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 1, 'total_bytes': 865, 'failed_logins': 1, 'connection_rate': 0.016666666666666666}
+
+IP: 162.54.240.134
+Threats: anomaly
+Confidence: 0.69
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 3, 'total_bytes': 1785, 'failed_logins': 3, 'connection_rate': 0.05}
+
+IP: 162.54.240.134
+Threats: anomaly
+Confidence: 0.64
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 1, 'total_bytes': 181, 'failed_logins': 1, 'connection_rate': 0.016666666666666666}
+
+IP: 162.54.240.134
+Threats: anomaly
+Confidence: 0.69
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 4, 'total_bytes': 1855, 'failed_logins': 4, 'connection_rate': 0.06666666666666667}
+
+IP: 162.54.240.134
+Threats: anomaly
+Confidence: 0.69
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 3, 'total_bytes': 1985, 'failed_logins': 3, 'connection_rate': 0.05}
+
+IP: 164.4.126.60
+Threats: anomaly
+Confidence: 0.69
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 4, 'total_bytes': 2540, 'failed_logins': 4, 'connection_rate': 0.06666666666666667}
+
+IP: 164.4.126.60
+Threats: anomaly
+Confidence: 0.69
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 2, 'total_bytes': 658, 'failed_logins': 2, 'connection_rate': 0.03333333333333333}
+
+IP: 164.4.126.60
+Threats: anomaly
+Confidence: 0.69
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 2, 'total_bytes': 873, 'failed_logins': 2, 'connection_rate': 0.03333333333333333}
+
+IP: 164.4.126.60
+Threats: anomaly
+Confidence: 0.69
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 2, 'total_bytes': 1105, 'failed_logins': 2, 'connection_rate': 0.03333333333333333}
+
+IP: 164.4.126.60
+Threats: anomaly
+Confidence: 0.69
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 3, 'total_bytes': 2505, 'failed_logins': 3, 'connection_rate': 0.05}
+
+IP: 164.4.126.60
+Threats: anomaly
+Confidence: 0.67
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 2, 'connection_count': 2, 'total_bytes': 645, 'failed_logins': 0, 'connection_rate': 0.03333333333333333}
+
+IP: 164.4.126.60
+Threats: anomaly
+Confidence: 0.70
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 87, 'total_bytes': 176982, 'failed_logins': 0, 'connection_rate': 1.45}
+
+IP: 174.144.248.184
+Threats: anomaly
+Confidence: 0.64
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 1, 'total_bytes': 628, 'failed_logins': 1, 'connection_rate': 0.016666666666666666}
+
+IP: 174.144.248.184
+Threats: anomaly
+Confidence: 0.69
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 3, 'total_bytes': 2061, 'failed_logins': 3, 'connection_rate': 0.05}
+
+IP: 174.144.248.184
+Threats: anomaly
+Confidence: 0.69
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 4, 'total_bytes': 2628, 'failed_logins': 4, 'connection_rate': 0.06666666666666667}
+
+IP: 174.144.248.184
+Threats: anomaly
+Confidence: 0.69
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 2, 'total_bytes': 569, 'failed_logins': 2, 'connection_rate': 0.03333333333333333}
+
+IP: 174.144.248.184
+Threats: anomaly
+Confidence: 0.69
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 3, 'total_bytes': 1292, 'failed_logins': 3, 'connection_rate': 0.05}
+
+IP: 174.144.248.184
+Threats: anomaly
+Confidence: 0.69
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 2, 'total_bytes': 789, 'failed_logins': 2, 'connection_rate': 0.03333333333333333}
+
+IP: 174.144.248.184
+Threats: anomaly
+Confidence: 0.69
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 4, 'total_bytes': 1632, 'failed_logins': 4, 'connection_rate': 0.06666666666666667}
+
+IP: 174.144.248.184
+Threats: anomaly
+Confidence: 0.64
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 1, 'total_bytes': 185, 'failed_logins': 1, 'connection_rate': 0.016666666666666666}
+
+IP: 174.18.70.116
+Threats: anomaly
+Confidence: 0.69
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 2, 'total_bytes': 1181, 'failed_logins': 2, 'connection_rate': 0.03333333333333333}
+
+IP: 174.18.70.116
+Threats: anomaly
+Confidence: 0.64
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 1, 'total_bytes': 537, 'failed_logins': 1, 'connection_rate': 0.016666666666666666}
+
+IP: 174.18.70.116
+Threats: anomaly
+Confidence: 0.63
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 1, 'total_bytes': 941, 'failed_logins': 1, 'connection_rate': 0.016666666666666666}
+
+IP: 174.18.70.116
+Threats: anomaly
+Confidence: 0.69
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 3, 'total_bytes': 1755, 'failed_logins': 3, 'connection_rate': 0.05}
+
+IP: 174.18.70.116
+Threats: anomaly
+Confidence: 0.69
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 4, 'total_bytes': 2437, 'failed_logins': 4, 'connection_rate': 0.06666666666666667}
+
+IP: 174.18.70.116
+Threats: anomaly
+Confidence: 0.68
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 19, 'connection_count': 19, 'total_bytes': 4765, 'failed_logins': 0, 'connection_rate': 0.31666666666666665}
+
+IP: 174.18.70.116
+Threats: anomaly
+Confidence: 0.68
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 12, 'connection_count': 12, 'total_bytes': 3094, 'failed_logins': 0, 'connection_rate': 0.2}
+
+IP: 174.18.70.116
+Threats: anomaly
+Confidence: 0.69
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 29, 'total_bytes': 71984, 'failed_logins': 0, 'connection_rate': 0.48333333333333334}
+
+IP: 174.18.70.116
+Threats: anomaly
+Confidence: 0.68
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 15, 'connection_count': 15, 'total_bytes': 3688, 'failed_logins': 0, 'connection_rate': 0.25}
+
+IP: 174.18.70.116
+Threats: anomaly
+Confidence: 0.69
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 2, 'total_bytes': 952, 'failed_logins': 2, 'connection_rate': 0.03333333333333333}
+
+IP: 174.18.70.116
+Threats: anomaly
+Confidence: 0.69
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 2, 'total_bytes': 1149, 'failed_logins': 2, 'connection_rate': 0.03333333333333333}
+
+IP: 174.18.70.116
+Threats: anomaly
+Confidence: 0.69
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 4, 'total_bytes': 1725, 'failed_logins': 4, 'connection_rate': 0.06666666666666667}
+
+IP: 174.18.70.116
+Threats: anomaly
+Confidence: 0.68
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 12, 'connection_count': 12, 'total_bytes': 3372, 'failed_logins': 0, 'connection_rate': 0.2}
+
+IP: 177.39.150.79
+Threats: anomaly
+Confidence: 0.68
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 16, 'connection_count': 16, 'total_bytes': 4815, 'failed_logins': 0, 'connection_rate': 0.26666666666666666}
+
+IP: 177.39.150.79
+Threats: anomaly
+Confidence: 0.68
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 8, 'connection_count': 8, 'total_bytes': 3052, 'failed_logins': 0, 'connection_rate': 0.13333333333333333}
+
+IP: 177.39.150.79
+Threats: anomaly
+Confidence: 0.69
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 2, 'total_bytes': 1240, 'failed_logins': 2, 'connection_rate': 0.03333333333333333}
+
+IP: 177.39.150.79
+Threats: anomaly
+Confidence: 0.64
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 1, 'total_bytes': 129, 'failed_logins': 1, 'connection_rate': 0.016666666666666666}
+
+IP: 177.39.150.79
+Threats: anomaly
+Confidence: 0.70
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 74, 'total_bytes': 181223, 'failed_logins': 0, 'connection_rate': 1.2333333333333334}
+
+IP: 177.39.150.79
+Threats: anomaly
+Confidence: 0.69
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 4, 'total_bytes': 1608, 'failed_logins': 4, 'connection_rate': 0.06666666666666667}
+
+IP: 177.39.150.79
+Threats: anomaly
+Confidence: 0.69
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 4, 'total_bytes': 1715, 'failed_logins': 4, 'connection_rate': 0.06666666666666667}
+
+IP: 177.39.150.79
+Threats: anomaly
+Confidence: 0.69
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 3, 'total_bytes': 2069, 'failed_logins': 3, 'connection_rate': 0.05}
+
+IP: 179.77.195.40
+Threats: anomaly
+Confidence: 0.69
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 22, 'total_bytes': 58351, 'failed_logins': 0, 'connection_rate': 0.36666666666666664}
+
+IP: 179.77.195.40
+Threats: anomaly
+Confidence: 0.69
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 2, 'total_bytes': 1860, 'failed_logins': 2, 'connection_rate': 0.03333333333333333}
+
+IP: 179.77.195.40
+Threats: anomaly
+Confidence: 0.69
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 3, 'total_bytes': 1582, 'failed_logins': 3, 'connection_rate': 0.05}
+
+IP: 179.77.195.40
+Threats: anomaly
+Confidence: 0.69
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 4, 'total_bytes': 1873, 'failed_logins': 4, 'connection_rate': 0.06666666666666667}
+
+IP: 179.77.195.40
+Threats: anomaly
+Confidence: 0.69
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 2, 'total_bytes': 1401, 'failed_logins': 2, 'connection_rate': 0.03333333333333333}
+
+IP: 179.77.195.40
+Threats: anomaly
+Confidence: 0.70
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 72, 'total_bytes': 186722, 'failed_logins': 0, 'connection_rate': 1.2}
+
+IP: 179.77.195.40
+Threats: anomaly
+Confidence: 0.69
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 22, 'total_bytes': 58137, 'failed_logins': 0, 'connection_rate': 0.36666666666666664}
+
+IP: 192.168.1.10
+Threats: anomaly
+Confidence: 0.64
+Action: monitor
+Reason: IP is in protected range
+Features: {'unique_ports': 1, 'connection_count': 1, 'total_bytes': 558, 'failed_logins': 0, 'connection_rate': 0.016666666666666666}
+
+IP: 192.168.1.11
+Threats: anomaly
+Confidence: 0.66
+Action: monitor
+Reason: IP is in protected range
+Features: {'unique_ports': 2, 'connection_count': 2, 'total_bytes': 31123, 'failed_logins': 0, 'connection_rate': 0.03333333333333333}
+
+IP: 192.168.1.12
+Threats: anomaly
+Confidence: 0.63
+Action: monitor
+Reason: IP is in protected range
+Features: {'unique_ports': 1, 'connection_count': 1, 'total_bytes': 49524, 'failed_logins': 0, 'connection_rate': 0.016666666666666666}
+
+IP: 192.168.1.12
+Threats: anomaly
+Confidence: 0.66
+Action: monitor
+Reason: IP is in protected range
+Features: {'unique_ports': 2, 'connection_count': 2, 'total_bytes': 69844, 'failed_logins': 0, 'connection_rate': 0.03333333333333333}
+
+IP: 192.168.1.13
+Threats: anomaly
+Confidence: 0.64
+Action: monitor
+Reason: IP is in protected range
+Features: {'unique_ports': 1, 'connection_count': 1, 'total_bytes': 387, 'failed_logins': 0, 'connection_rate': 0.016666666666666666}
+
+IP: 192.168.1.13
+Threats: anomaly
+Confidence: 0.63
+Action: monitor
+Reason: IP is in protected range
+Features: {'unique_ports': 1, 'connection_count': 1, 'total_bytes': 49323, 'failed_logins': 0, 'connection_rate': 0.016666666666666666}
+
+IP: 192.168.1.13
+Threats: anomaly
+Confidence: 0.64
+Action: monitor
+Reason: IP is in protected range
+Features: {'unique_ports': 1, 'connection_count': 1, 'total_bytes': 278, 'failed_logins': 0, 'connection_rate': 0.016666666666666666}
+
+IP: 192.168.1.14
+Threats: anomaly
+Confidence: 0.63
+Action: monitor
+Reason: IP is in protected range
+Features: {'unique_ports': 1, 'connection_count': 1, 'total_bytes': 668, 'failed_logins': 0, 'connection_rate': 0.016666666666666666}
+
+IP: 192.168.1.14
+Threats: anomaly
+Confidence: 0.63
+Action: monitor
+Reason: IP is in protected range
+Features: {'unique_ports': 1, 'connection_count': 1, 'total_bytes': 49516, 'failed_logins': 0, 'connection_rate': 0.016666666666666666}
+
+IP: 192.168.1.15
+Threats: anomaly
+Confidence: 0.64
+Action: monitor
+Reason: IP is in protected range
+Features: {'unique_ports': 1, 'connection_count': 1, 'total_bytes': 49878, 'failed_logins': 0, 'connection_rate': 0.016666666666666666}
+
+IP: 192.168.1.15
+Threats: anomaly
+Confidence: 0.67
+Action: monitor
+Reason: IP is in protected range
+Features: {'unique_ports': 2, 'connection_count': 2, 'total_bytes': 14774, 'failed_logins': 0, 'connection_rate': 0.03333333333333333}
+
+IP: 192.168.1.16
+Threats: anomaly
+Confidence: 0.66
+Action: monitor
+Reason: IP is in protected range
+Features: {'unique_ports': 2, 'connection_count': 2, 'total_bytes': 71424, 'failed_logins': 0, 'connection_rate': 0.03333333333333333}
+
+IP: 192.168.1.16
+Threats: anomaly
+Confidence: 0.64
+Action: monitor
+Reason: IP is in protected range
+Features: {'unique_ports': 1, 'connection_count': 1, 'total_bytes': 111, 'failed_logins': 0, 'connection_rate': 0.016666666666666666}
+
+IP: 192.168.1.16
+Threats: anomaly
+Confidence: 0.63
+Action: monitor
+Reason: IP is in protected range
+Features: {'unique_ports': 1, 'connection_count': 1, 'total_bytes': 1102, 'failed_logins': 0, 'connection_rate': 0.016666666666666666}
+
+IP: 192.168.1.17
+Threats: anomaly
+Confidence: 0.65
+Action: monitor
+Reason: IP is in protected range
+Features: {'unique_ports': 2, 'connection_count': 2, 'total_bytes': 56284, 'failed_logins': 0, 'connection_rate': 0.03333333333333333}
+
+IP: 192.168.1.17
+Threats: anomaly
+Confidence: 0.63
+Action: monitor
+Reason: IP is in protected range
+Features: {'unique_ports': 1, 'connection_count': 1, 'total_bytes': 1276, 'failed_logins': 0, 'connection_rate': 0.016666666666666666}
+
+IP: 192.168.1.17
+Threats: anomaly
+Confidence: 0.65
+Action: monitor
+Reason: IP is in protected range
+Features: {'unique_ports': 2, 'connection_count': 2, 'total_bytes': 49281, 'failed_logins': 0, 'connection_rate': 0.03333333333333333}
+
+IP: 192.168.1.18
+Threats: anomaly
+Confidence: 0.63
+Action: monitor
+Reason: IP is in protected range
+Features: {'unique_ports': 1, 'connection_count': 1, 'total_bytes': 1181, 'failed_logins': 0, 'connection_rate': 0.016666666666666666}
+
+IP: 192.168.1.18
+Threats: anomaly
+Confidence: 0.66
+Action: monitor
+Reason: IP is in protected range
+Features: {'unique_ports': 2, 'connection_count': 2, 'total_bytes': 72657, 'failed_logins': 0, 'connection_rate': 0.03333333333333333}
+
+IP: 192.168.1.18
+Threats: anomaly
+Confidence: 0.63
+Action: monitor
+Reason: IP is in protected range
+Features: {'unique_ports': 1, 'connection_count': 1, 'total_bytes': 1262, 'failed_logins': 0, 'connection_rate': 0.016666666666666666}
+
+IP: 192.168.1.18
+Threats: anomaly
+Confidence: 0.66
+Action: monitor
+Reason: IP is in protected range
+Features: {'unique_ports': 2, 'connection_count': 2, 'total_bytes': 71390, 'failed_logins': 0, 'connection_rate': 0.03333333333333333}
+
+IP: 192.168.1.18
+Threats: anomaly
+Confidence: 0.63
+Action: monitor
+Reason: IP is in protected range
+Features: {'unique_ports': 1, 'connection_count': 1, 'total_bytes': 917, 'failed_logins': 0, 'connection_rate': 0.016666666666666666}
+
+IP: 192.168.1.19
+Threats: anomaly
+Confidence: 0.63
+Action: monitor
+Reason: IP is in protected range
+Features: {'unique_ports': 1, 'connection_count': 1, 'total_bytes': 49411, 'failed_logins': 0, 'connection_rate': 0.016666666666666666}
+
+IP: 192.168.1.19
+Threats: anomaly
+Confidence: 0.64
+Action: monitor
+Reason: IP is in protected range
+Features: {'unique_ports': 1, 'connection_count': 1, 'total_bytes': 49722, 'failed_logins': 0, 'connection_rate': 0.016666666666666666}
+
+IP: 192.168.1.2
+Threats: anomaly
+Confidence: 0.64
+Action: monitor
+Reason: IP is in protected range
+Features: {'unique_ports': 1, 'connection_count': 1, 'total_bytes': 264, 'failed_logins': 0, 'connection_rate': 0.016666666666666666}
+
+IP: 192.168.1.20
+Threats: anomaly
+Confidence: 0.63
+Action: monitor
+Reason: IP is in protected range
+Features: {'unique_ports': 1, 'connection_count': 1, 'total_bytes': 49495, 'failed_logins': 0, 'connection_rate': 0.016666666666666666}
+
+IP: 192.168.1.20
+Threats: anomaly
+Confidence: 0.66
+Action: monitor
+Reason: IP is in protected range
+Features: {'unique_ports': 2, 'connection_count': 2, 'total_bytes': 68766, 'failed_logins': 0, 'connection_rate': 0.03333333333333333}
+
+IP: 192.168.1.21
+Threats: anomaly
+Confidence: 0.64
+Action: monitor
+Reason: IP is in protected range
+Features: {'unique_ports': 1, 'connection_count': 1, 'total_bytes': 49591, 'failed_logins': 0, 'connection_rate': 0.016666666666666666}
+
+IP: 192.168.1.21
+Threats: anomaly
+Confidence: 0.66
+Action: monitor
+Reason: IP is in protected range
+Features: {'unique_ports': 2, 'connection_count': 2, 'total_bytes': 68394, 'failed_logins': 0, 'connection_rate': 0.03333333333333333}
+
+IP: 192.168.1.21
+Threats: anomaly
+Confidence: 0.63
+Action: monitor
+Reason: IP is in protected range
+Features: {'unique_ports': 1, 'connection_count': 1, 'total_bytes': 783, 'failed_logins': 0, 'connection_rate': 0.016666666666666666}
+
+IP: 192.168.1.22
+Threats: anomaly
+Confidence: 0.65
+Action: monitor
+Reason: IP is in protected range
+Features: {'unique_ports': 2, 'connection_count': 2, 'total_bytes': 54878, 'failed_logins': 0, 'connection_rate': 0.03333333333333333}
+
+IP: 192.168.1.23
+Threats: anomaly
+Confidence: 0.64
+Action: monitor
+Reason: IP is in protected range
+Features: {'unique_ports': 1, 'connection_count': 1, 'total_bytes': 372, 'failed_logins': 0, 'connection_rate': 0.016666666666666666}
+
+IP: 192.168.1.23
+Threats: anomaly
+Confidence: 0.63
+Action: monitor
+Reason: IP is in protected range
+Features: {'unique_ports': 1, 'connection_count': 1, 'total_bytes': 1244, 'failed_logins': 0, 'connection_rate': 0.016666666666666666}
+
+IP: 192.168.1.23
+Threats: anomaly
+Confidence: 0.64
+Action: monitor
+Reason: IP is in protected range
+Features: {'unique_ports': 1, 'connection_count': 1, 'total_bytes': 49926, 'failed_logins': 0, 'connection_rate': 0.016666666666666666}
+
+IP: 192.168.1.24
+Threats: anomaly
+Confidence: 0.63
+Action: monitor
+Reason: IP is in protected range
+Features: {'unique_ports': 1, 'connection_count': 1, 'total_bytes': 49495, 'failed_logins': 0, 'connection_rate': 0.016666666666666666}
+
+IP: 192.168.1.24
+Threats: anomaly
+Confidence: 0.67
+Action: monitor
+Reason: IP is in protected range
+Features: {'unique_ports': 2, 'connection_count': 2, 'total_bytes': 18151, 'failed_logins': 0, 'connection_rate': 0.03333333333333333}
+
+IP: 192.168.1.26
+Threats: anomaly
+Confidence: 0.63
+Action: monitor
+Reason: IP is in protected range
+Features: {'unique_ports': 1, 'connection_count': 1, 'total_bytes': 1114, 'failed_logins': 0, 'connection_rate': 0.016666666666666666}
+
+IP: 192.168.1.26
+Threats: anomaly
+Confidence: 0.64
+Action: monitor
+Reason: IP is in protected range
+Features: {'unique_ports': 1, 'connection_count': 1, 'total_bytes': 49710, 'failed_logins': 0, 'connection_rate': 0.016666666666666666}
+
+IP: 192.168.1.26
+Threats: anomaly
+Confidence: 0.65
+Action: monitor
+Reason: IP is in protected range
+Features: {'unique_ports': 2, 'connection_count': 2, 'total_bytes': 66652, 'failed_logins': 0, 'connection_rate': 0.03333333333333333}
+
+IP: 192.168.1.29
+Threats: anomaly
+Confidence: 0.63
+Action: monitor
+Reason: IP is in protected range
+Features: {'unique_ports': 1, 'connection_count': 1, 'total_bytes': 807, 'failed_logins': 0, 'connection_rate': 0.016666666666666666}
+
+IP: 192.168.1.30
+Threats: anomaly
+Confidence: 0.64
+Action: monitor
+Reason: IP is in protected range
+Features: {'unique_ports': 1, 'connection_count': 1, 'total_bytes': 347, 'failed_logins': 0, 'connection_rate': 0.016666666666666666}
+
+IP: 192.168.1.30
+Threats: anomaly
+Confidence: 0.64
+Action: monitor
+Reason: IP is in protected range
+Features: {'unique_ports': 1, 'connection_count': 1, 'total_bytes': 49763, 'failed_logins': 0, 'connection_rate': 0.016666666666666666}
+
+IP: 192.168.1.31
+Threats: anomaly
+Confidence: 0.67
+Action: monitor
+Reason: IP is in protected range
+Features: {'unique_ports': 2, 'connection_count': 2, 'total_bytes': 17325, 'failed_logins': 0, 'connection_rate': 0.03333333333333333}
+
+IP: 192.168.1.31
+Threats: anomaly
+Confidence: 0.66
+Action: monitor
+Reason: IP is in protected range
+Features: {'unique_ports': 2, 'connection_count': 2, 'total_bytes': 37848, 'failed_logins': 0, 'connection_rate': 0.03333333333333333}
+
+IP: 192.168.1.31
+Threats: anomaly
+Confidence: 0.64
+Action: monitor
+Reason: IP is in protected range
+Features: {'unique_ports': 1, 'connection_count': 1, 'total_bytes': 242, 'failed_logins': 0, 'connection_rate': 0.016666666666666666}
+
+IP: 192.168.1.31
+Threats: anomaly
+Confidence: 0.63
+Action: monitor
+Reason: IP is in protected range
+Features: {'unique_ports': 1, 'connection_count': 1, 'total_bytes': 49274, 'failed_logins': 0, 'connection_rate': 0.016666666666666666}
+
+IP: 192.168.1.31
+Threats: anomaly
+Confidence: 0.63
+Action: monitor
+Reason: IP is in protected range
+Features: {'unique_ports': 1, 'connection_count': 1, 'total_bytes': 713, 'failed_logins': 0, 'connection_rate': 0.016666666666666666}
+
+IP: 192.168.1.33
+Threats: anomaly
+Confidence: 0.64
+Action: monitor
+Reason: IP is in protected range
+Features: {'unique_ports': 1, 'connection_count': 1, 'total_bytes': 49850, 'failed_logins': 0, 'connection_rate': 0.016666666666666666}
+
+IP: 192.168.1.33
+Threats: anomaly
+Confidence: 0.68
+Action: monitor
+Reason: IP is in protected range
+Features: {'unique_ports': 1, 'connection_count': 2, 'total_bytes': 47116, 'failed_logins': 0, 'connection_rate': 0.03333333333333333}
+
+IP: 192.168.1.35
+Threats: anomaly
+Confidence: 0.64
+Action: monitor
+Reason: IP is in protected range
+Features: {'unique_ports': 1, 'connection_count': 1, 'total_bytes': 124, 'failed_logins': 0, 'connection_rate': 0.016666666666666666}
+
+IP: 192.168.1.36
+Threats: anomaly
+Confidence: 0.64
+Action: monitor
+Reason: IP is in protected range
+Features: {'unique_ports': 1, 'connection_count': 1, 'total_bytes': 49559, 'failed_logins': 0, 'connection_rate': 0.016666666666666666}
+
+IP: 192.168.1.37
+Threats: anomaly
+Confidence: 0.63
+Action: monitor
+Reason: IP is in protected range
+Features: {'unique_ports': 1, 'connection_count': 1, 'total_bytes': 49334, 'failed_logins': 0, 'connection_rate': 0.016666666666666666}
+
+IP: 192.168.1.37
+Threats: anomaly
+Confidence: 0.63
+Action: monitor
+Reason: IP is in protected range
+Features: {'unique_ports': 1, 'connection_count': 1, 'total_bytes': 1208, 'failed_logins': 0, 'connection_rate': 0.016666666666666666}
+
+IP: 192.168.1.37
+Threats: anomaly
+Confidence: 0.63
+Action: monitor
+Reason: IP is in protected range
+Features: {'unique_ports': 1, 'connection_count': 1, 'total_bytes': 1066, 'failed_logins': 0, 'connection_rate': 0.016666666666666666}
+
+IP: 192.168.1.38
+Threats: anomaly
+Confidence: 0.66
+Action: monitor
+Reason: IP is in protected range
+Features: {'unique_ports': 2, 'connection_count': 2, 'total_bytes': 23956, 'failed_logins': 0, 'connection_rate': 0.03333333333333333}
+
+IP: 192.168.1.38
+Threats: anomaly
+Confidence: 0.65
+Action: monitor
+Reason: IP is in protected range
+Features: {'unique_ports': 2, 'connection_count': 2, 'total_bytes': 65263, 'failed_logins': 0, 'connection_rate': 0.03333333333333333}
+
+IP: 192.168.1.38
+Threats: anomaly
+Confidence: 0.65
+Action: monitor
+Reason: IP is in protected range
+Features: {'unique_ports': 2, 'connection_count': 2, 'total_bytes': 44561, 'failed_logins': 0, 'connection_rate': 0.03333333333333333}
+
+IP: 192.168.1.38
+Threats: anomaly
+Confidence: 0.63
+Action: monitor
+Reason: IP is in protected range
+Features: {'unique_ports': 1, 'connection_count': 1, 'total_bytes': 711, 'failed_logins': 0, 'connection_rate': 0.016666666666666666}
+
+IP: 192.168.1.38
+Threats: anomaly
+Confidence: 0.63
+Action: monitor
+Reason: IP is in protected range
+Features: {'unique_ports': 1, 'connection_count': 1, 'total_bytes': 1091, 'failed_logins': 0, 'connection_rate': 0.016666666666666666}
+
+IP: 192.168.1.39
+Threats: anomaly
+Confidence: 0.63
+Action: monitor
+Reason: IP is in protected range
+Features: {'unique_ports': 1, 'connection_count': 1, 'total_bytes': 1062, 'failed_logins': 0, 'connection_rate': 0.016666666666666666}
+
+IP: 192.168.1.40
+Threats: anomaly
+Confidence: 0.63
+Action: monitor
+Reason: IP is in protected range
+Features: {'unique_ports': 1, 'connection_count': 1, 'total_bytes': 1190, 'failed_logins': 0, 'connection_rate': 0.016666666666666666}
+
+IP: 192.168.1.40
+Threats: anomaly
+Confidence: 0.64
+Action: monitor
+Reason: IP is in protected range
+Features: {'unique_ports': 1, 'connection_count': 1, 'total_bytes': 101, 'failed_logins': 0, 'connection_rate': 0.016666666666666666}
+
+IP: 192.168.1.40
+Threats: anomaly
+Confidence: 0.64
+Action: monitor
+Reason: IP is in protected range
+Features: {'unique_ports': 1, 'connection_count': 1, 'total_bytes': 49974, 'failed_logins': 0, 'connection_rate': 0.016666666666666666}
+
+IP: 192.168.1.40
+Threats: anomaly
+Confidence: 0.64
+Action: monitor
+Reason: IP is in protected range
+Features: {'unique_ports': 1, 'connection_count': 1, 'total_bytes': 49812, 'failed_logins': 0, 'connection_rate': 0.016666666666666666}
+
+IP: 192.168.1.41
+Threats: anomaly
+Confidence: 0.63
+Action: monitor
+Reason: IP is in protected range
+Features: {'unique_ports': 1, 'connection_count': 1, 'total_bytes': 49295, 'failed_logins': 0, 'connection_rate': 0.016666666666666666}
+
+IP: 192.168.1.42
+Threats: anomaly
+Confidence: 0.63
+Action: monitor
+Reason: IP is in protected range
+Features: {'unique_ports': 1, 'connection_count': 1, 'total_bytes': 877, 'failed_logins': 0, 'connection_rate': 0.016666666666666666}
+
+IP: 192.168.1.42
+Threats: anomaly
+Confidence: 0.63
+Action: monitor
+Reason: IP is in protected range
+Features: {'unique_ports': 1, 'connection_count': 1, 'total_bytes': 1104, 'failed_logins': 0, 'connection_rate': 0.016666666666666666}
+
+IP: 192.168.1.43
+Threats: anomaly
+Confidence: 0.65
+Action: monitor
+Reason: IP is in protected range
+Features: {'unique_ports': 2, 'connection_count': 2, 'total_bytes': 44392, 'failed_logins': 0, 'connection_rate': 0.03333333333333333}
+
+IP: 192.168.1.43
+Threats: anomaly
+Confidence: 0.67
+Action: monitor
+Reason: IP is in protected range
+Features: {'unique_ports': 2, 'connection_count': 2, 'total_bytes': 84924, 'failed_logins': 0, 'connection_rate': 0.03333333333333333}
+
+IP: 192.168.1.43
+Threats: anomaly
+Confidence: 0.65
+Action: monitor
+Reason: IP is in protected range
+Features: {'unique_ports': 2, 'connection_count': 2, 'total_bytes': 58606, 'failed_logins': 0, 'connection_rate': 0.03333333333333333}
+
+IP: 192.168.1.43
+Threats: anomaly
+Confidence: 0.63
+Action: monitor
+Reason: IP is in protected range
+Features: {'unique_ports': 1, 'connection_count': 1, 'total_bytes': 49181, 'failed_logins': 0, 'connection_rate': 0.016666666666666666}
+
+IP: 192.168.1.44
+Threats: anomaly
+Confidence: 0.63
+Action: monitor
+Reason: IP is in protected range
+Features: {'unique_ports': 1, 'connection_count': 1, 'total_bytes': 49176, 'failed_logins': 0, 'connection_rate': 0.016666666666666666}
+
+IP: 192.168.1.44
+Threats: anomaly
+Confidence: 0.64
+Action: monitor
+Reason: IP is in protected range
+Features: {'unique_ports': 1, 'connection_count': 1, 'total_bytes': 267, 'failed_logins': 0, 'connection_rate': 0.016666666666666666}
+
+IP: 192.168.1.44
+Threats: anomaly
+Confidence: 0.67
+Action: monitor
+Reason: IP is in protected range
+Features: {'unique_ports': 2, 'connection_count': 2, 'total_bytes': 97977, 'failed_logins': 0, 'connection_rate': 0.03333333333333333}
+
+IP: 192.168.1.44
+Threats: anomaly
+Confidence: 0.64
+Action: monitor
+Reason: IP is in protected range
+Features: {'unique_ports': 1, 'connection_count': 1, 'total_bytes': 49692, 'failed_logins': 0, 'connection_rate': 0.016666666666666666}
+
+IP: 192.168.1.44
+Threats: anomaly
+Confidence: 0.63
+Action: monitor
+Reason: IP is in protected range
+Features: {'unique_ports': 1, 'connection_count': 1, 'total_bytes': 672, 'failed_logins': 0, 'connection_rate': 0.016666666666666666}
+
+IP: 192.168.1.45
+Threats: anomaly
+Confidence: 0.63
+Action: monitor
+Reason: IP is in protected range
+Features: {'unique_ports': 1, 'connection_count': 1, 'total_bytes': 1209, 'failed_logins': 0, 'connection_rate': 0.016666666666666666}
+
+IP: 192.168.1.45
+Threats: anomaly
+Confidence: 0.63
+Action: monitor
+Reason: IP is in protected range
+Features: {'unique_ports': 1, 'connection_count': 1, 'total_bytes': 1140, 'failed_logins': 0, 'connection_rate': 0.016666666666666666}
+
+IP: 192.168.1.45
+Threats: anomaly
+Confidence: 0.64
+Action: monitor
+Reason: IP is in protected range
+Features: {'unique_ports': 1, 'connection_count': 1, 'total_bytes': 49779, 'failed_logins': 0, 'connection_rate': 0.016666666666666666}
+
+IP: 192.168.1.45
+Threats: anomaly
+Confidence: 0.63
+Action: monitor
+Reason: IP is in protected range
+Features: {'unique_ports': 1, 'connection_count': 1, 'total_bytes': 1302, 'failed_logins': 0, 'connection_rate': 0.016666666666666666}
+
+IP: 192.168.1.46
+Threats: anomaly
+Confidence: 0.63
+Action: monitor
+Reason: IP is in protected range
+Features: {'unique_ports': 1, 'connection_count': 1, 'total_bytes': 49509, 'failed_logins': 0, 'connection_rate': 0.016666666666666666}
+
+IP: 192.168.1.46
+Threats: anomaly
+Confidence: 0.65
+Action: monitor
+Reason: IP is in protected range
+Features: {'unique_ports': 2, 'connection_count': 2, 'total_bytes': 45257, 'failed_logins': 0, 'connection_rate': 0.03333333333333333}
+
+IP: 192.168.1.47
+Threats: anomaly
+Confidence: 0.63
+Action: monitor
+Reason: IP is in protected range
+Features: {'unique_ports': 1, 'connection_count': 1, 'total_bytes': 1064, 'failed_logins': 0, 'connection_rate': 0.016666666666666666}
+
+IP: 192.168.1.49
+Threats: anomaly
+Confidence: 0.63
+Action: monitor
+Reason: IP is in protected range
+Features: {'unique_ports': 1, 'connection_count': 1, 'total_bytes': 1043, 'failed_logins': 0, 'connection_rate': 0.016666666666666666}
+
+IP: 192.168.1.49
+Threats: anomaly
+Confidence: 0.63
+Action: monitor
+Reason: IP is in protected range
+Features: {'unique_ports': 1, 'connection_count': 1, 'total_bytes': 1029, 'failed_logins': 0, 'connection_rate': 0.016666666666666666}
+
+IP: 192.168.1.49
+Threats: anomaly
+Confidence: 0.63
+Action: monitor
+Reason: IP is in protected range
+Features: {'unique_ports': 1, 'connection_count': 1, 'total_bytes': 688, 'failed_logins': 0, 'connection_rate': 0.016666666666666666}
+
+IP: 192.168.1.5
+Threats: anomaly
+Confidence: 0.63
+Action: monitor
+Reason: IP is in protected range
+Features: {'unique_ports': 1, 'connection_count': 1, 'total_bytes': 49519, 'failed_logins': 0, 'connection_rate': 0.016666666666666666}
+
+IP: 192.168.1.5
+Threats: anomaly
+Confidence: 0.67
+Action: monitor
+Reason: IP is in protected range
+Features: {'unique_ports': 2, 'connection_count': 2, 'total_bytes': 82920, 'failed_logins': 0, 'connection_rate': 0.03333333333333333}
+
+IP: 192.168.1.7
+Threats: anomaly
+Confidence: 0.66
+Action: monitor
+Reason: IP is in protected range
+Features: {'unique_ports': 2, 'connection_count': 2, 'total_bytes': 72978, 'failed_logins': 0, 'connection_rate': 0.03333333333333333}
+
+IP: 192.168.1.7
+Threats: anomaly
+Confidence: 0.67
+Action: monitor
+Reason: IP is in protected range
+Features: {'unique_ports': 2, 'connection_count': 2, 'total_bytes': 16510, 'failed_logins': 0, 'connection_rate': 0.03333333333333333}
+
+IP: 192.168.1.8
+Threats: anomaly
+Confidence: 0.64
+Action: monitor
+Reason: IP is in protected range
+Features: {'unique_ports': 1, 'connection_count': 1, 'total_bytes': 49882, 'failed_logins': 0, 'connection_rate': 0.016666666666666666}
+
+IP: 192.168.1.8
+Threats: anomaly
+Confidence: 0.64
+Action: monitor
+Reason: IP is in protected range
+Features: {'unique_ports': 1, 'connection_count': 1, 'total_bytes': 49809, 'failed_logins': 0, 'connection_rate': 0.016666666666666666}
+
+IP: 192.168.1.9
+Threats: anomaly
+Confidence: 0.63
+Action: monitor
+Reason: IP is in protected range
+Features: {'unique_ports': 1, 'connection_count': 1, 'total_bytes': 1005, 'failed_logins': 0, 'connection_rate': 0.016666666666666666}
+
+IP: 198.163.100.124
+Threats: anomaly
+Confidence: 0.64
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 1, 'total_bytes': 169, 'failed_logins': 1, 'connection_rate': 0.016666666666666666}
+
+IP: 198.163.100.124
+Threats: anomaly
+Confidence: 0.64
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 1, 'total_bytes': 207, 'failed_logins': 1, 'connection_rate': 0.016666666666666666}
+
+IP: 198.163.100.124
+Threats: anomaly
+Confidence: 0.69
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 3, 'total_bytes': 1844, 'failed_logins': 3, 'connection_rate': 0.05}
+
+IP: 198.163.100.124
+Threats: anomaly
+Confidence: 0.70
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 85, 'total_bytes': 223143, 'failed_logins': 0, 'connection_rate': 1.4166666666666667}
+
+IP: 50.193.246.67
+Threats: anomaly
+Confidence: 0.70
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 89, 'total_bytes': 208508, 'failed_logins': 0, 'connection_rate': 1.4833333333333334}
+
+IP: 50.193.246.67
+Threats: anomaly
+Confidence: 0.70
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 86, 'total_bytes': 196613, 'failed_logins': 0, 'connection_rate': 1.4333333333333333}
+
+IP: 50.193.246.67
+Threats: anomaly
+Confidence: 0.70
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 55, 'total_bytes': 141898, 'failed_logins': 0, 'connection_rate': 0.9166666666666666}
+
+IP: 50.193.246.67
+Threats: anomaly
+Confidence: 0.63
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 1, 'total_bytes': 818, 'failed_logins': 1, 'connection_rate': 0.016666666666666666}
+
+IP: 50.193.246.67
+Threats: anomaly
+Confidence: 0.69
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 2, 'total_bytes': 1107, 'failed_logins': 2, 'connection_rate': 0.03333333333333333}
+
+IP: 50.193.246.67
+Threats: anomaly
+Confidence: 0.69
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 2, 'total_bytes': 1140, 'failed_logins': 2, 'connection_rate': 0.03333333333333333}
+
+IP: 50.193.246.67
+Threats: anomaly
+Confidence: 0.63
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 1, 'total_bytes': 832, 'failed_logins': 1, 'connection_rate': 0.016666666666666666}
+
+IP: 60.140.137.107
+Threats: anomaly
+Confidence: 0.68
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 4, 'connection_count': 4, 'total_bytes': 1235, 'failed_logins': 0, 'connection_rate': 0.06666666666666667}
+
+IP: 60.140.137.107
+Threats: anomaly
+Confidence: 0.68
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 4, 'connection_count': 4, 'total_bytes': 1488, 'failed_logins': 0, 'connection_rate': 0.06666666666666667}
+
+IP: 60.140.137.107
+Threats: anomaly
+Confidence: 0.69
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 3, 'total_bytes': 1449, 'failed_logins': 3, 'connection_rate': 0.05}
+
+IP: 60.140.137.107
+Threats: anomaly
+Confidence: 0.69
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 4, 'total_bytes': 3090, 'failed_logins': 4, 'connection_rate': 0.06666666666666667}
+
+IP: 60.140.137.107
+Threats: anomaly
+Confidence: 0.69
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 4, 'total_bytes': 2671, 'failed_logins': 4, 'connection_rate': 0.06666666666666667}
+
+IP: 60.140.137.107
+Threats: anomaly
+Confidence: 0.64
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 1, 'total_bytes': 140, 'failed_logins': 1, 'connection_rate': 0.016666666666666666}
+
+IP: 66.43.28.185
+Threats: anomaly
+Confidence: 0.68
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 7, 'connection_count': 7, 'total_bytes': 1699, 'failed_logins': 0, 'connection_rate': 0.11666666666666667}
+
+IP: 66.43.28.185
+Threats: anomaly
+Confidence: 0.69
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 3, 'total_bytes': 5579, 'failed_logins': 0, 'connection_rate': 0.05}
+
+IP: 66.43.28.185
+Threats: anomaly
+Confidence: 0.69
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 13, 'total_bytes': 36103, 'failed_logins': 0, 'connection_rate': 0.21666666666666667}
+
+IP: 66.43.28.185
+Threats: anomaly
+Confidence: 0.64
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 1, 'total_bytes': 181, 'failed_logins': 1, 'connection_rate': 0.016666666666666666}
+
+IP: 66.43.28.185
+Threats: anomaly
+Confidence: 0.69
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 2, 'total_bytes': 911, 'failed_logins': 2, 'connection_rate': 0.03333333333333333}
+
+IP: 66.43.28.185
+Threats: anomaly
+Confidence: 0.69
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 4, 'total_bytes': 2093, 'failed_logins': 4, 'connection_rate': 0.06666666666666667}
+
+IP: 66.43.28.185
+Threats: anomaly
+Confidence: 0.69
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 3, 'total_bytes': 1458, 'failed_logins': 3, 'connection_rate': 0.05}
+
+IP: 66.43.28.185
+Threats: anomaly
+Confidence: 0.63
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 1, 'total_bytes': 654, 'failed_logins': 1, 'connection_rate': 0.016666666666666666}
+
+IP: 66.43.28.185
+Threats: anomaly
+Confidence: 0.68
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 5, 'connection_count': 5, 'total_bytes': 1055, 'failed_logins': 0, 'connection_rate': 0.08333333333333333}
+
+IP: 69.88.158.132
+Threats: anomaly
+Confidence: 0.68
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 15, 'connection_count': 15, 'total_bytes': 3684, 'failed_logins': 0, 'connection_rate': 0.25}
+
+IP: 69.88.158.132
+Threats: anomaly
+Confidence: 0.68
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 10, 'connection_count': 10, 'total_bytes': 3254, 'failed_logins': 0, 'connection_rate': 0.16666666666666666}
+
+IP: 69.88.158.132
+Threats: anomaly
+Confidence: 0.69
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 2, 'total_bytes': 1185, 'failed_logins': 2, 'connection_rate': 0.03333333333333333}
+
+IP: 69.88.158.132
+Threats: anomaly
+Confidence: 0.69
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 3, 'total_bytes': 1859, 'failed_logins': 3, 'connection_rate': 0.05}
+
+IP: 69.88.158.132
+Threats: anomaly
+Confidence: 0.64
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 1, 'total_bytes': 166, 'failed_logins': 1, 'connection_rate': 0.016666666666666666}
+
+IP: 69.88.158.132
+Threats: anomaly
+Confidence: 0.64
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 1, 'total_bytes': 408, 'failed_logins': 1, 'connection_rate': 0.016666666666666666}
+
+IP: 69.88.158.132
+Threats: anomaly
+Confidence: 0.69
+Action: alert
+Reason: Repeat offender - escalated response
+Features: {'unique_ports': 1, 'connection_count': 3, 'total_bytes': 1862, 'failed_logins': 3, 'connection_rate': 0.05}
