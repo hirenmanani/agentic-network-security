@@ -1,0 +1,22 @@
+{
+  "port_scan": {
+    "enabled": false,
+    "threshold": 9999,
+    "time_window": 60
+  },
+  "brute_force": {
+    "enabled": false,
+    "threshold": 9999,
+    "time_window": 300
+  },
+  "ddos": {
+    "enabled": false,
+    "connection_threshold": 9999999,
+    "bytes_threshold": 9999999999,
+    "time_window": 60
+  },
+  "suspicious_port": {
+    "enabled": false,
+    "ports": []
+  }
+}

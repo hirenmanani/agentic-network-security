@@ -97,7 +97,7 @@ class ThreatDetector:
         X_scaled = self.scaler.fit_transform(X)
 
         self.anomaly_detector = IsolationForest(
-            contamination=0.1,
+            contamination=0.05,
             random_state=42,
             n_estimators=100
         )
@@ -154,24 +154,29 @@ class ThreatDetector:
 
     def combine_detections(self, rule_threats: List[Dict],
                            anomaly_threats: List[Dict]) -> List[Dict]:
-        """Combine and deduplicate detections from both methods"""
-        # Create a dictionary keyed by (ip, timestamp)
         combined = {}
 
         for threat in rule_threats + anomaly_threats:
-            key = (threat['source_ip'], threat['timestamp'])
+            # Convert timestamp to string to ensure consistent hashing
+            ts = threat['timestamp']
+            if hasattr(ts, 'isoformat'):
+                ts = ts.isoformat()
+            else:
+                ts = str(ts)
+
+            key = (threat['source_ip'], ts)
 
             if key not in combined:
+                # Also normalise the stored timestamp to string
+                threat['timestamp'] = ts
                 combined[key] = threat
             else:
-                # Merge threat types and take max confidence
                 existing = combined[key]
                 existing['threat_types'] = list(set(
                     existing['threat_types'] + threat['threat_types']
                 ))
                 existing['confidence'] = max(
                     existing['confidence'], threat['confidence'])
-
                 if 'anomaly_score' in threat:
                     existing['anomaly_score'] = threat['anomaly_score']
 

@@ -1,4 +1,3 @@
-# src/agents.py
 from typing import Dict, List, Any
 import logging
 from datetime import datetime
@@ -33,8 +32,9 @@ class MonitoringAgent(BaseAgent):
 
     def trigger_processing(self, data: Any) -> Dict:
         """Trigger data processing pipeline"""
-        self.log_action("trigger_processing", {"data_size": len(
-            data) if hasattr(data, '__len__') else 0})
+        self.log_action("trigger_processing", {
+            "data_size": len(data) if hasattr(data, '__len__') else 0
+        })
         return {
             'status': 'processing_triggered',
             'data': data,
@@ -53,19 +53,14 @@ class DetectionAgent(BaseAgent):
         """Analyze features and detect threats"""
         self.log_action("analyze_features", {"feature_count": len(features)})
 
-        # Run rule-based detection
         rule_threats = self.detector.detect_rule_based(features)
-
-        # Run anomaly detection
         anomaly_threats = self.detector.detect_anomalies(features)
-
-        # Combine results
         all_threats = self.detector.combine_detections(
             rule_threats, anomaly_threats)
 
         self.log_action("detection_complete", {
-                        "threats_found": len(all_threats)})
-
+            "threats_found": len(all_threats)
+        })
         return all_threats
 
 
@@ -82,8 +77,8 @@ class TriageAgent(BaseAgent):
                 and t.get('confidence', 0) >= 0.9
             ),
             'high': lambda t: (
-                len(t.get('threat_types', [])) >= 2 or t.get(
-                    'confidence', 0) >= 0.75
+                len(t.get('threat_types', [])) >= 2
+                or t.get('confidence', 0) >= 0.75
             ),
             'medium': lambda t: (
                 t.get('confidence', 0) >= 0.6
@@ -98,22 +93,20 @@ class TriageAgent(BaseAgent):
                 return severity
         return 'low'
 
-    def triage_threats(self, threats: List[Dict], memory_context: Dict = None) -> List[Dict]:
+    def triage_threats(self, threats: List[Dict],
+                       memory_context: Dict = None) -> List[Dict]:
         """Triage all threats and add severity/priority"""
         triaged = []
 
         for threat in threats:
             severity = self.assess_severity(threat)
 
-            # Check if repeat offender using the keyed dictionary
             is_repeat = False
             if memory_context and threat['source_ip'] in memory_context:
-                # Access the 'incident_count' from our summary dictionary
-                is_repeat = memory_context[threat['source_ip']
-                                           ]['incident_count'] > 0
-
+                is_repeat = (
+                    memory_context[threat['source_ip']]['incident_count'] > 0
+                )
                 if is_repeat:
-                    # Escalate severity for repeat offenders
                     if severity == 'low':
                         severity = 'medium'
                     elif severity == 'medium':
@@ -122,19 +115,17 @@ class TriageAgent(BaseAgent):
             threat['severity'] = severity
             threat['is_repeat_offender'] = is_repeat
             threat['triage_timestamp'] = datetime.now().isoformat()
-
             triaged.append(threat)
 
-        # Sort by severity
         severity_order = {'critical': 0, 'high': 1, 'medium': 2, 'low': 3}
         triaged.sort(key=lambda x: severity_order.get(x['severity'], 3))
 
         self.log_action("triage_complete", {
             "total_threats": len(triaged),
             "critical": sum(1 for t in triaged if t['severity'] == 'critical'),
-            "high": sum(1 for t in triaged if t['severity'] == 'high'),
-            "medium": sum(1 for t in triaged if t['severity'] == 'medium'),
-            "low": sum(1 for t in triaged if t['severity'] == 'low')
+            "high":     sum(1 for t in triaged if t['severity'] == 'high'),
+            "medium":   sum(1 for t in triaged if t['severity'] == 'medium'),
+            "low":      sum(1 for t in triaged if t['severity'] == 'low')
         })
 
         return triaged
@@ -185,8 +176,8 @@ class ResponseAgent(BaseAgent):
         }
 
         self.log_action("response_decided", {
-            "ip": threat['source_ip'],
-            "action": action,
+            "ip":       threat['source_ip'],
+            "action":   action,
             "severity": threat['severity']
         })
 
@@ -202,57 +193,66 @@ class AgentOrchestrator:
         self.triage_agent = TriageAgent()
         self.response_agent = ResponseAgent(policy_engine)
         self.memory_manager = memory_manager
-
         logger.info("Agent orchestrator initialized")
 
     def process_logs(self, features) -> List[Dict]:
-        """Full pipeline: monitor -> detect -> triage -> respond"""
-        # Step 1: Monitor
+        """Full pipeline: observe -> think -> act"""
+        logger.info("=== THINK-ACT-OBSERVE CYCLE START ===")
+
+        # OBSERVE
+        logger.info("[OBSERVE] MonitoringAgent ingesting features")
         self.monitoring_agent.trigger_processing(features)
 
-        # Step 2: Detect
+        # THINK — detect
+        logger.info("[THINK] DetectionAgent running hybrid detection")
         threats = self.detection_agent.analyze_features(features)
 
         if not threats:
-            logger.info("No threats detected")
+            logger.info("[OBSERVE] No threats detected — cycle complete")
             return []
 
-        # Step 3: Get memory context (CRITICAL FIX HERE)
-        # We transform the list of history records into a dict keyed by IP
+        # THINK — memory lookup
+        unique_ips = len(set(t['source_ip'] for t in threats))
+        logger.info(
+            f"[THINK] MemoryAgent querying history for {unique_ips} unique IPs"
+        )
         memory_context = {}
         for threat in threats:
             ip = threat['source_ip']
             if ip not in memory_context:
                 history = self.memory_manager.get_ip_history(ip)
-                # Create a summary object for the TriageAgent to index into
                 memory_context[ip] = {
                     'incident_count': len(history),
                     'history': history
                 }
 
-        # Step 4: Triage (Passes the new memory_context dictionary)
+        # THINK — triage
+        logger.info(
+            "[THINK] TriageAgent assigning severity + memory escalation"
+        )
         triaged_threats = self.triage_agent.triage_threats(
             threats, memory_context)
+        logger.info(
+            f"[THINK] Triage complete — {len(triaged_threats)} threats")
 
-        # Step 5: Respond
+        # ACT
         incidents = []
         for threat in triaged_threats:
+            logger.info(
+                f"[ACT] ResponseAgent: {threat['source_ip']} "
+                f"severity={threat['severity']}"
+            )
             response = self.response_agent.decide_response(threat)
 
             incident = {
                 **threat,
-                'response': response,
-                # Add for IncidentMemory consistency
+                'response':           response,
                 'recommended_action': response['action'],
-                # Add for IncidentMemory consistency
-                'description': response['reason']
+                'description':        response['reason']
             }
 
             incidents.append(incident)
-
-            # Store in memory
             self.memory_manager.store_incident(incident)
 
-        logger.info(f"Processed {len(incidents)} incidents")
-
+        logger.info(f"=== CYCLE COMPLETE — {len(incidents)} incidents ===")
         return incidents

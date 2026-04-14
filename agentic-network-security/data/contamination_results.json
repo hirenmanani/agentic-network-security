@@ -1,0 +1,37 @@
+[
+  {
+    "contamination": 0.05,
+    "total": 748,
+    "critical": 9,
+    "fp_proxy": 652,
+    "fpr_pct": 87.2
+  },
+  {
+    "contamination": 0.08,
+    "total": 1046,
+    "critical": 9,
+    "fp_proxy": 950,
+    "fpr_pct": 90.8
+  },
+  {
+    "contamination": 0.1,
+    "total": 1257,
+    "critical": 9,
+    "fp_proxy": 1161,
+    "fpr_pct": 92.4
+  },
+  {
+    "contamination": 0.12,
+    "total": 1444,
+    "critical": 9,
+    "fp_proxy": 1348,
+    "fpr_pct": 93.4
+  },
+  {
+    "contamination": 0.15,
+    "total": 1722,
+    "critical": 9,
+    "fp_proxy": 1626,
+    "fpr_pct": 94.4
+  }
+]
