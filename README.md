@@ -249,9 +249,9 @@ python tests/contamination_search.py
 
 ---
 
-## Academic Context
+## Context
 
-This project was developed for CIS 600: Applied Agentic AI Systems at Syracuse University. It demonstrates the application of multi-agent agentic workflows to a real-world cybersecurity problem, grounded in the ReAct paradigm and evaluated through rigorous ablation and hyperparameter studies.
+This project demonstrates the application of multi-agent agentic workflows to a real-world cybersecurity problem, grounded in the ReAct paradigm and evaluated through rigorous ablation and hyperparameter studies.
 
 ---
 
