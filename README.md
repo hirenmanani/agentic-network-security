@@ -1,4 +1,3 @@
-Here is the complete README content — copy everything between the lines:
 
 ---
 
